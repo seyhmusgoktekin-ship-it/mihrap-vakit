@@ -1,0 +1,37 @@
+name: Vakitleri çek
+
+on:
+  schedule:
+    - cron: '17 1 * * 1'   # her pazartesi 04:17 (TSİ)
+  workflow_dispatch:
+    inputs:
+      kip:
+        description: 'kesif ya da vakit'
+        default: vakit
+
+permissions:
+  contents: write
+
+concurrency: cek
+
+jobs:
+  cek:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Çek
+        env:
+          DIYANET_KULLANICI: ${{ secrets.DIYANET_KULLANICI }}
+          DIYANET_SIFRE: ${{ secrets.DIYANET_SIFRE }}
+        run: python3 betik/cek.py "${{ inputs.kip || 'vakit' }}"
+      - name: Kaydet
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A ham vakit 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "Vakitler $(date -u +%F)"
+          git push
