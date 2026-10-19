@@ -1,0 +1,4509 @@
+{
+ "500": [
+  {
+   "id": 9146,
+   "code": "ADANA",
+   "name": "ADANA"
+  },
+  {
+   "id": 9147,
+   "code": "ALADAG",
+   "name": "ALADAĞ"
+  },
+  {
+   "id": 9148,
+   "code": "CEYHAN",
+   "name": "CEYHAN"
+  },
+  {
+   "id": 9149,
+   "code": "FEKE",
+   "name": "FEKE"
+  },
+  {
+   "id": 9150,
+   "code": "IMAMOGLU",
+   "name": "İMAMOĞLU"
+  },
+  {
+   "id": 9151,
+   "code": "KARAISALI",
+   "name": "KARAISALI"
+  },
+  {
+   "id": 9152,
+   "code": "KARATAS",
+   "name": "KARATAŞ"
+  },
+  {
+   "id": 9153,
+   "code": "KOZAN",
+   "name": "KOZAN"
+  },
+  {
+   "id": 9154,
+   "code": "POZANTI",
+   "name": "POZANTI"
+  },
+  {
+   "id": 9155,
+   "code": "SAIMBEYLI",
+   "name": "SAİMBEYLİ"
+  },
+  {
+   "id": 9156,
+   "code": "TUFANBEYLI",
+   "name": "TUFANBEYLİ"
+  },
+  {
+   "id": 9157,
+   "code": "YUMURTALIK",
+   "name": "YUMURTALIK"
+  }
+ ],
+ "501": [
+  {
+   "id": 9158,
+   "code": "ADIYAMAN",
+   "name": "ADIYAMAN"
+  },
+  {
+   "id": 9159,
+   "code": "BESNI",
+   "name": "BESNİ"
+  },
+  {
+   "id": 9160,
+   "code": "CELIKHAN",
+   "name": "ÇELİKHAN"
+  },
+  {
+   "id": 9161,
+   "code": "GERGER",
+   "name": "GERGER"
+  },
+  {
+   "id": 9162,
+   "code": "GOLBASI",
+   "name": "GÖLBAŞI"
+  },
+  {
+   "id": 9163,
+   "code": "KAHTA",
+   "name": "KAHTA"
+  },
+  {
+   "id": 9164,
+   "code": "SAMSAT",
+   "name": "SAMSAT"
+  },
+  {
+   "id": 9165,
+   "code": "SINCIK",
+   "name": "SİNCİK"
+  },
+  {
+   "id": 9166,
+   "code": "TUT",
+   "name": "TUT"
+  }
+ ],
+ "502": [
+  {
+   "id": 9167,
+   "code": "AFYONKARAHISAR",
+   "name": "AFYONKARAHİSAR"
+  },
+  {
+   "id": 9168,
+   "code": "BASMAKCI",
+   "name": "BAŞMAKÇI"
+  },
+  {
+   "id": 9169,
+   "code": "BAYAT",
+   "name": "BAYAT"
+  },
+  {
+   "id": 9170,
+   "code": "BOLVADIN",
+   "name": "BOLVADİN"
+  },
+  {
+   "id": 9171,
+   "code": "CAY",
+   "name": "ÇAY"
+  },
+  {
+   "id": 9172,
+   "code": "COBANLAR",
+   "name": "ÇOBANLAR"
+  },
+  {
+   "id": 9173,
+   "code": "DAZKIRI",
+   "name": "DAZKIRI"
+  },
+  {
+   "id": 9174,
+   "code": "DINAR",
+   "name": "DİNAR"
+  },
+  {
+   "id": 9175,
+   "code": "EMIRDAG",
+   "name": "EMİRDAĞ"
+  },
+  {
+   "id": 9176,
+   "code": "EVCILER",
+   "name": "EVCİLER"
+  },
+  {
+   "id": 9177,
+   "code": "HOCALAR",
+   "name": "HOCALAR"
+  },
+  {
+   "id": 9178,
+   "code": "IHSANIYE",
+   "name": "İHSANİYE"
+  },
+  {
+   "id": 9179,
+   "code": "ISCEHISAR",
+   "name": "İSCEHİSAR"
+  },
+  {
+   "id": 9180,
+   "code": "KIZILOREN",
+   "name": "KIZILÖREN"
+  },
+  {
+   "id": 9181,
+   "code": "SANDIKLI",
+   "name": "SANDIKLI"
+  },
+  {
+   "id": 9182,
+   "code": "SINANPASA",
+   "name": "SİNANPAŞA"
+  },
+  {
+   "id": 9183,
+   "code": "ŞUHUT",
+   "name": "ŞUHUT"
+  },
+  {
+   "id": 9184,
+   "code": "SULTANDAGI",
+   "name": "SULTANDAĞI"
+  }
+ ],
+ "503": [
+  {
+   "id": 9185,
+   "code": "AGRI",
+   "name": "AĞRI"
+  },
+  {
+   "id": 9186,
+   "code": "DIYADIN",
+   "name": "DİYADİN"
+  },
+  {
+   "id": 9187,
+   "code": "DOGUBEYAZIT",
+   "name": "DOĞUBEYAZIT"
+  },
+  {
+   "id": 9188,
+   "code": "ELESKIRT",
+   "name": "ELEŞKİRT"
+  },
+  {
+   "id": 9189,
+   "code": "PATNOS",
+   "name": "PATNOS"
+  },
+  {
+   "id": 9190,
+   "code": "TASLICAY",
+   "name": "TAŞLIÇAY"
+  },
+  {
+   "id": 9191,
+   "code": "TUTAK",
+   "name": "TUTAK"
+  }
+ ],
+ "504": [
+  {
+   "id": 9192,
+   "code": "AGACOREN",
+   "name": "AĞAÇÖREN"
+  },
+  {
+   "id": 9193,
+   "code": "AKSARAY",
+   "name": "AKSARAY"
+  },
+  {
+   "id": 9194,
+   "code": "ESKIL",
+   "name": "ESKİL"
+  },
+  {
+   "id": 9195,
+   "code": "GULAGAC",
+   "name": "GÜLAĞAÇ"
+  },
+  {
+   "id": 9196,
+   "code": "GUZELYURT",
+   "name": "GÜZELYURT"
+  },
+  {
+   "id": 9197,
+   "code": "SARIYAHSI",
+   "name": "SARIYAHŞİ"
+  },
+  {
+   "id": 17877,
+   "code": "ORTAKÖY",
+   "name": "ORTAKÖY"
+  },
+  {
+   "id": 20069,
+   "code": "SULTANHANI",
+   "name": "SULTANHANI"
+  }
+ ],
+ "505": [
+  {
+   "id": 9198,
+   "code": "AMASYA",
+   "name": "AMASYA"
+  },
+  {
+   "id": 9199,
+   "code": "GOYNUCEK",
+   "name": "GÖYNÜCEK"
+  },
+  {
+   "id": 9200,
+   "code": "GUMUSHACIKOY",
+   "name": "GÜMÜŞHACIKÖY"
+  },
+  {
+   "id": 9201,
+   "code": "HAMAMOZU",
+   "name": "HAMAMÖZÜ"
+  },
+  {
+   "id": 9202,
+   "code": "MERZIFON",
+   "name": "MERZİFON"
+  },
+  {
+   "id": 9203,
+   "code": "SULUOVA",
+   "name": "SULUOVA"
+  },
+  {
+   "id": 9204,
+   "code": "TASOVA",
+   "name": "TAŞOVA"
+  }
+ ],
+ "506": [
+  {
+   "id": 9205,
+   "code": "AKYURT",
+   "name": "AKYURT"
+  },
+  {
+   "id": 9206,
+   "code": "ANKARA",
+   "name": "ANKARA"
+  },
+  {
+   "id": 9207,
+   "code": "AYAS",
+   "name": "AYAŞ"
+  },
+  {
+   "id": 9208,
+   "code": "BALA",
+   "name": "BALA"
+  },
+  {
+   "id": 9209,
+   "code": "BEYPAZARI",
+   "name": "BEYPAZARI"
+  },
+  {
+   "id": 9210,
+   "code": "CAMLIDERE",
+   "name": "ÇAMLIDERE"
+  },
+  {
+   "id": 9211,
+   "code": "CUBUK",
+   "name": "CUBUK"
+  },
+  {
+   "id": 9212,
+   "code": "ELMADAG",
+   "name": "ELMADAĞ"
+  },
+  {
+   "id": 9213,
+   "code": "EVREN",
+   "name": "EVREN"
+  },
+  {
+   "id": 9214,
+   "code": "GUDUL",
+   "name": "GÜDÜL"
+  },
+  {
+   "id": 9215,
+   "code": "HAYMANA",
+   "name": "HAYMANA"
+  },
+  {
+   "id": 9216,
+   "code": "KALECIK",
+   "name": "KALECİK"
+  },
+  {
+   "id": 9217,
+   "code": "KAHRAMANKAZAN",
+   "name": "KAHRAMANKAZAN"
+  },
+  {
+   "id": 9218,
+   "code": "KIZILCAHAMAM",
+   "name": "KIZILCAHAMAM"
+  },
+  {
+   "id": 9219,
+   "code": "NALLIHAN",
+   "name": "NALLIHAN"
+  },
+  {
+   "id": 9220,
+   "code": "POLATLI",
+   "name": "POLATLI"
+  },
+  {
+   "id": 9221,
+   "code": "SEREFLIKOCHISAR",
+   "name": "ŞEREFLİKOÇHİSAR"
+  }
+ ],
+ "507": [
+  {
+   "id": 9222,
+   "code": "AKSEKI",
+   "name": "AKSEKİ"
+  },
+  {
+   "id": 9223,
+   "code": "AKSU",
+   "name": "AKSU"
+  },
+  {
+   "id": 9224,
+   "code": "ALANYA",
+   "name": "ALANYA"
+  },
+  {
+   "id": 9225,
+   "code": "ANTALYA",
+   "name": "ANTALYA"
+  },
+  {
+   "id": 9226,
+   "code": "DEMRE",
+   "name": "DEMRE"
+  },
+  {
+   "id": 9227,
+   "code": "ELMALI",
+   "name": "ELMALI"
+  },
+  {
+   "id": 9228,
+   "code": "FINIKE",
+   "name": "FİNİKE"
+  },
+  {
+   "id": 9229,
+   "code": "GAZIPASA",
+   "name": "GAZİPAŞA"
+  },
+  {
+   "id": 9230,
+   "code": "GUNDOGMUS",
+   "name": "GÜNDOĞMUŞ"
+  },
+  {
+   "id": 9231,
+   "code": "IBRADI",
+   "name": "İBRADI"
+  },
+  {
+   "id": 9232,
+   "code": "KAS",
+   "name": "KAŞ"
+  },
+  {
+   "id": 9233,
+   "code": "KEMER",
+   "name": "KEMER"
+  },
+  {
+   "id": 9234,
+   "code": "KORKUTELI",
+   "name": "KORKUTELİ"
+  },
+  {
+   "id": 9235,
+   "code": "KUMLUCA",
+   "name": "KUMLUCA"
+  },
+  {
+   "id": 9236,
+   "code": "MANAVGAT",
+   "name": "MANAVGAT"
+  },
+  {
+   "id": 9237,
+   "code": "SERIK",
+   "name": "SERİK"
+  }
+ ],
+ "508": [
+  {
+   "id": 9238,
+   "code": "ARDAHAN",
+   "name": "ARDAHAN"
+  },
+  {
+   "id": 9239,
+   "code": "CILDIR",
+   "name": "ÇILDIR"
+  },
+  {
+   "id": 9240,
+   "code": "DAMAL",
+   "name": "DAMAL"
+  },
+  {
+   "id": 9241,
+   "code": "GOLE",
+   "name": "GÖLE"
+  },
+  {
+   "id": 9242,
+   "code": "HANAK",
+   "name": "HANAK"
+  },
+  {
+   "id": 9243,
+   "code": "POSOF",
+   "name": "POSOF"
+  }
+ ],
+ "509": [
+  {
+   "id": 9244,
+   "code": "ARDANUC",
+   "name": "ARDANUÇ"
+  },
+  {
+   "id": 9245,
+   "code": "ARHAVI",
+   "name": "ARHAVİ"
+  },
+  {
+   "id": 9246,
+   "code": "ARTVIN",
+   "name": "ARTVİN"
+  },
+  {
+   "id": 9247,
+   "code": "BORCKA",
+   "name": "BORÇKA"
+  },
+  {
+   "id": 9248,
+   "code": "HOPA",
+   "name": "HOPA"
+  },
+  {
+   "id": 9249,
+   "code": "MURGUL",
+   "name": "MURGUL"
+  },
+  {
+   "id": 9250,
+   "code": "SAVSAT",
+   "name": "ŞAVŞAT"
+  },
+  {
+   "id": 9251,
+   "code": "YUSUFELI",
+   "name": "YUSUFELİ"
+  },
+  {
+   "id": 20070,
+   "code": "KEMALPASA",
+   "name": "KEMALPAŞA"
+  }
+ ],
+ "510": [
+  {
+   "id": 9252,
+   "code": "AYDIN",
+   "name": "AYDIN"
+  },
+  {
+   "id": 9253,
+   "code": "BOZDOGAN",
+   "name": "BOZDOĞAN"
+  },
+  {
+   "id": 9254,
+   "code": "BUHARKENT",
+   "name": "BUHARKENT"
+  },
+  {
+   "id": 9255,
+   "code": "ÇINE",
+   "name": "ÇİNE"
+  },
+  {
+   "id": 9256,
+   "code": "DIDIM",
+   "name": "DİDİM"
+  },
+  {
+   "id": 9257,
+   "code": "GERMENCIK",
+   "name": "GERMENCİK"
+  },
+  {
+   "id": 9258,
+   "code": "INCIRLIOVA",
+   "name": "İNCİRLİOVA"
+  },
+  {
+   "id": 9259,
+   "code": "KARACASU",
+   "name": "KARACASU"
+  },
+  {
+   "id": 9260,
+   "code": "KARPUZLU",
+   "name": "KARPUZLU"
+  },
+  {
+   "id": 9261,
+   "code": "KOCARLI",
+   "name": "KOÇARLI"
+  },
+  {
+   "id": 9262,
+   "code": "KOŞK",
+   "name": "KÖŞK"
+  },
+  {
+   "id": 9263,
+   "code": "KUSADASI",
+   "name": "KUŞADASI"
+  },
+  {
+   "id": 9264,
+   "code": "KUYUCAK",
+   "name": "KUYUCAK"
+  },
+  {
+   "id": 9265,
+   "code": "NAZILLI",
+   "name": "NAZİLLİ"
+  },
+  {
+   "id": 9266,
+   "code": "SOKE",
+   "name": "SÖKE"
+  },
+  {
+   "id": 9267,
+   "code": "SULTANHISAR",
+   "name": "SULTANHİSAR"
+  },
+  {
+   "id": 9268,
+   "code": "YENIPAZAR (A)",
+   "name": "YENİPAZAR (A)"
+  }
+ ],
+ "511": [
+  {
+   "id": 9269,
+   "code": "AYVALIK",
+   "name": "AYVALIK"
+  },
+  {
+   "id": 9270,
+   "code": "BALIKESIR",
+   "name": "BALIKESİR"
+  },
+  {
+   "id": 9271,
+   "code": "BALYA",
+   "name": "BALYA"
+  },
+  {
+   "id": 9272,
+   "code": "BIGADIC",
+   "name": "BİGADİÇ"
+  },
+  {
+   "id": 9273,
+   "code": "BURHANIYE",
+   "name": "BURHANİYE"
+  },
+  {
+   "id": 9274,
+   "code": "DURSUNBEY",
+   "name": "DURSUNBEY"
+  },
+  {
+   "id": 9275,
+   "code": "EDREMIT",
+   "name": "EDREMİT"
+  },
+  {
+   "id": 9276,
+   "code": "GOMEC",
+   "name": "GÖMEÇ"
+  },
+  {
+   "id": 9277,
+   "code": "GONEN",
+   "name": "GÖNEN"
+  },
+  {
+   "id": 9278,
+   "code": "HAVRAN",
+   "name": "HAVRAN"
+  },
+  {
+   "id": 9279,
+   "code": "IVRINDI",
+   "name": "İVRİNDİ"
+  },
+  {
+   "id": 9280,
+   "code": "KEPSUT",
+   "name": "KEPSUT"
+  },
+  {
+   "id": 9281,
+   "code": "MARMARA",
+   "name": "MARMARA"
+  },
+  {
+   "id": 9282,
+   "code": "SAVASTEPE",
+   "name": "SAVAŞTEPE"
+  },
+  {
+   "id": 9283,
+   "code": "SINDIRGI",
+   "name": "SINDIRGI"
+  },
+  {
+   "id": 9284,
+   "code": "SUSURLUK",
+   "name": "SUSURLUK"
+  },
+  {
+   "id": 17881,
+   "code": "ERDEK",
+   "name": "ERDEK"
+  },
+  {
+   "id": 17917,
+   "code": "BANDIRMA",
+   "name": "BANDIRMA"
+  },
+  {
+   "id": 17918,
+   "code": "MANYAS",
+   "name": "MANYAS"
+  }
+ ],
+ "512": [
+  {
+   "id": 9285,
+   "code": "BARTIN",
+   "name": "BARTIN"
+  },
+  {
+   "id": 9286,
+   "code": "KURUCASILE",
+   "name": "KURUCAŞİLE"
+  },
+  {
+   "id": 9287,
+   "code": "ULUS",
+   "name": "ULUS"
+  }
+ ],
+ "513": [
+  {
+   "id": 9288,
+   "code": "BATMAN",
+   "name": "BATMAN"
+  },
+  {
+   "id": 9289,
+   "code": "BESIRI",
+   "name": "BEŞİRİ"
+  },
+  {
+   "id": 9290,
+   "code": "GERCUS",
+   "name": "GERCÜŞ"
+  },
+  {
+   "id": 9291,
+   "code": "HASANKEYF",
+   "name": "HASANKEYF"
+  },
+  {
+   "id": 9292,
+   "code": "KOZLUK",
+   "name": "KOZLUK"
+  },
+  {
+   "id": 9293,
+   "code": "SASON",
+   "name": "SASON"
+  }
+ ],
+ "514": [
+  {
+   "id": 9294,
+   "code": "AYDINTEPE",
+   "name": "AYDINTEPE"
+  },
+  {
+   "id": 9295,
+   "code": "BAYBURT",
+   "name": "BAYBURT"
+  },
+  {
+   "id": 9296,
+   "code": "DEMIROZU",
+   "name": "DEMİRÖZÜ"
+  }
+ ],
+ "515": [
+  {
+   "id": 9297,
+   "code": "BILECIK",
+   "name": "BİLECİK"
+  },
+  {
+   "id": 9298,
+   "code": "BOZUYUK",
+   "name": "BOZÜYÜK"
+  },
+  {
+   "id": 9299,
+   "code": "GOLPAZARI",
+   "name": "GÖLPAZARI"
+  },
+  {
+   "id": 9300,
+   "code": "INHISAR",
+   "name": "İNHİSAR"
+  },
+  {
+   "id": 9301,
+   "code": "SOGUT",
+   "name": "SÖĞÜT"
+  },
+  {
+   "id": 9302,
+   "code": "YENIPAZAR",
+   "name": "YENİPAZAR"
+  },
+  {
+   "id": 17895,
+   "code": "OSMANELİ",
+   "name": "OSMANELİ"
+  },
+  {
+   "id": 17896,
+   "code": "PAZARYERİ",
+   "name": "PAZARYERİ"
+  }
+ ],
+ "516": [
+  {
+   "id": 9303,
+   "code": "BINGOL",
+   "name": "BİNGÖL"
+  },
+  {
+   "id": 9304,
+   "code": "KARLIOVA",
+   "name": "KARLIOVA"
+  },
+  {
+   "id": 9305,
+   "code": "KIGI",
+   "name": "KİGI"
+  },
+  {
+   "id": 9306,
+   "code": "SOLHAN",
+   "name": "SOLHAN"
+  },
+  {
+   "id": 9307,
+   "code": "YAYLADERE",
+   "name": "YAYLADERE"
+  },
+  {
+   "id": 9308,
+   "code": "YEDISU",
+   "name": "YEDİSU"
+  },
+  {
+   "id": 17889,
+   "code": "ADAKLI",
+   "name": "ADAKLI"
+  }
+ ],
+ "517": [
+  {
+   "id": 9309,
+   "code": "ADILCEVAZ",
+   "name": "ADİLCEVAZ"
+  },
+  {
+   "id": 9310,
+   "code": "AHLAT",
+   "name": "AHLAT"
+  },
+  {
+   "id": 9311,
+   "code": "BITLIS",
+   "name": "BİTLİS"
+  },
+  {
+   "id": 9312,
+   "code": "HIZAN",
+   "name": "HİZAN"
+  },
+  {
+   "id": 9313,
+   "code": "MUTKI",
+   "name": "MUTKİ"
+  },
+  {
+   "id": 9314,
+   "code": "TATVAN",
+   "name": "TATVAN"
+  },
+  {
+   "id": 17887,
+   "code": "GÜROYMAK",
+   "name": "GÜROYMAK"
+  }
+ ],
+ "518": [
+  {
+   "id": 9315,
+   "code": "BOLU",
+   "name": "BOLU"
+  },
+  {
+   "id": 9316,
+   "code": "DORTDIVAN",
+   "name": "DÖRTDİVAN"
+  },
+  {
+   "id": 9317,
+   "code": "GEREDE",
+   "name": "GEREDE"
+  },
+  {
+   "id": 9318,
+   "code": "GOYNUK",
+   "name": "GÖYNÜK"
+  },
+  {
+   "id": 9319,
+   "code": "KIBRISCIK",
+   "name": "KIBRISCIK"
+  },
+  {
+   "id": 9320,
+   "code": "MENGEN",
+   "name": "MENGEN"
+  },
+  {
+   "id": 9321,
+   "code": "MUDURNU",
+   "name": "MUDURNU"
+  },
+  {
+   "id": 9322,
+   "code": "SEBEN",
+   "name": "SEBEN"
+  },
+  {
+   "id": 9323,
+   "code": "YENICAGA",
+   "name": "YENİÇAĞA"
+  }
+ ],
+ "519": [
+  {
+   "id": 9324,
+   "code": "AGLASUN",
+   "name": "AĞLASUN"
+  },
+  {
+   "id": 9325,
+   "code": "ALTINYAYLA",
+   "name": "ALTINYAYLA"
+  },
+  {
+   "id": 9326,
+   "code": "BUCAK",
+   "name": "BUCAK"
+  },
+  {
+   "id": 9327,
+   "code": "BURDUR",
+   "name": "BURDUR"
+  },
+  {
+   "id": 9328,
+   "code": "CAVDIR",
+   "name": "ÇAVDIR"
+  },
+  {
+   "id": 9329,
+   "code": "CELTIKCI",
+   "name": "ÇELTİKCİ"
+  },
+  {
+   "id": 9330,
+   "code": "GOLHISAR",
+   "name": "GÖLHİSAR"
+  },
+  {
+   "id": 9331,
+   "code": "KARAMANLI",
+   "name": "KARAMANLI"
+  },
+  {
+   "id": 9332,
+   "code": "KEMER (B)",
+   "name": "KEMER (B)"
+  },
+  {
+   "id": 9333,
+   "code": "TEFENNI",
+   "name": "TEFENNİ"
+  },
+  {
+   "id": 9334,
+   "code": "YESILOVA",
+   "name": "YEŞİLOVA"
+  }
+ ],
+ "520": [
+  {
+   "id": 9335,
+   "code": "BURSA",
+   "name": "BURSA"
+  },
+  {
+   "id": 9336,
+   "code": "BUYUK ORHAN",
+   "name": "BÜYÜK ORHAN"
+  },
+  {
+   "id": 9337,
+   "code": "GEMLIK",
+   "name": "GEMLİK"
+  },
+  {
+   "id": 9338,
+   "code": "HARMANCIK",
+   "name": "HARMANCIK"
+  },
+  {
+   "id": 9339,
+   "code": "INEGOL",
+   "name": "İNEGÖL"
+  },
+  {
+   "id": 9340,
+   "code": "IZNIK",
+   "name": "İZNİK"
+  },
+  {
+   "id": 9341,
+   "code": "KARACABEY",
+   "name": "KARACABEY"
+  },
+  {
+   "id": 9342,
+   "code": "KELES",
+   "name": "KELES"
+  },
+  {
+   "id": 9343,
+   "code": "MUDANYA",
+   "name": "MUDANYA"
+  },
+  {
+   "id": 9344,
+   "code": "MUSTAFA KEMALPASA",
+   "name": "MUSTAFA KEMALPAŞA"
+  },
+  {
+   "id": 9345,
+   "code": "ORHANGAZI",
+   "name": "ORHANGAZİ"
+  },
+  {
+   "id": 9346,
+   "code": "YENISEHIR",
+   "name": "YENİŞEHİR"
+  },
+  {
+   "id": 17893,
+   "code": "KESTEL",
+   "name": "KESTEL"
+  },
+  {
+   "id": 17894,
+   "code": "ORHANELİ",
+   "name": "ORHANELİ"
+  }
+ ],
+ "521": [
+  {
+   "id": 9347,
+   "code": "AYVACIK",
+   "name": "AYVACIK"
+  },
+  {
+   "id": 9348,
+   "code": "BAYRAMİC",
+   "name": "BAYRAMİÇ"
+  },
+  {
+   "id": 9349,
+   "code": "BIGA",
+   "name": "BİGA"
+  },
+  {
+   "id": 9350,
+   "code": "BOZCAADA",
+   "name": "BOZCAADA"
+  },
+  {
+   "id": 9351,
+   "code": "CAN",
+   "name": "ÇAN"
+  },
+  {
+   "id": 9352,
+   "code": "CANAKKALE",
+   "name": "ÇANAKKALE"
+  },
+  {
+   "id": 9353,
+   "code": "GELIBOLU",
+   "name": "GELİBOLU"
+  },
+  {
+   "id": 9354,
+   "code": "GOKCEADA",
+   "name": "GÖKÇEADA"
+  },
+  {
+   "id": 9355,
+   "code": "LAPSEKI",
+   "name": "LAPSEKİ"
+  },
+  {
+   "id": 9356,
+   "code": "YENICE",
+   "name": "YENİCE"
+  },
+  {
+   "id": 17882,
+   "code": "EZİNE",
+   "name": "EZİNE"
+  }
+ ],
+ "522": [
+  {
+   "id": 9357,
+   "code": "ATKARACALAR",
+   "name": "ATKARACALAR"
+  },
+  {
+   "id": 9358,
+   "code": "BAYRAMOREN",
+   "name": "BAYRAMÖREN"
+  },
+  {
+   "id": 9359,
+   "code": "CANKIRI",
+   "name": "ÇANKIRI"
+  },
+  {
+   "id": 9360,
+   "code": "CERKES",
+   "name": "CERKEŞ"
+  },
+  {
+   "id": 9361,
+   "code": "ILGAZ",
+   "name": "ILGAZ"
+  },
+  {
+   "id": 9362,
+   "code": "KIZILIRMAK",
+   "name": "KIZILIRMAK"
+  },
+  {
+   "id": 9363,
+   "code": "KURSUNLU",
+   "name": "KURŞUNLU"
+  },
+  {
+   "id": 9364,
+   "code": "ORTA",
+   "name": "ORTA"
+  },
+  {
+   "id": 9365,
+   "code": "SABANOZU",
+   "name": "ŞABANÖZÜ"
+  },
+  {
+   "id": 9366,
+   "code": "YAPRAKLI",
+   "name": "YAPRAKLI"
+  }
+ ],
+ "523": [
+  {
+   "id": 9367,
+   "code": "ALACA",
+   "name": "ALACA"
+  },
+  {
+   "id": 9368,
+   "code": "BAYAT",
+   "name": "BAYAT"
+  },
+  {
+   "id": 9369,
+   "code": "BOGAZKALE",
+   "name": "BOĞAZKALE"
+  },
+  {
+   "id": 9370,
+   "code": "CORUM",
+   "name": "ÇORUM"
+  },
+  {
+   "id": 9371,
+   "code": "DODURGA",
+   "name": "DODURGA"
+  },
+  {
+   "id": 9372,
+   "code": "ISKILIP",
+   "name": "İSKİLİP"
+  },
+  {
+   "id": 9373,
+   "code": "KARGI",
+   "name": "KARGI"
+  },
+  {
+   "id": 9374,
+   "code": "LACIN",
+   "name": "LAÇİN"
+  },
+  {
+   "id": 9375,
+   "code": "MECITOZU",
+   "name": "MECİTÖZÜ"
+  },
+  {
+   "id": 9376,
+   "code": "OGUZLAR",
+   "name": "OĞUZLAR"
+  },
+  {
+   "id": 9377,
+   "code": "ORTAKOY",
+   "name": "ORTAKÖY"
+  },
+  {
+   "id": 9378,
+   "code": "OSMANCIK",
+   "name": "OSMANCIK"
+  },
+  {
+   "id": 9379,
+   "code": "SUNGURLU",
+   "name": "SUNGURLU"
+  },
+  {
+   "id": 9380,
+   "code": "UGURLUDAG",
+   "name": "UĞURLUDAĞ"
+  }
+ ],
+ "524": [
+  {
+   "id": 9381,
+   "code": "GÜNEY",
+   "name": "GÜNEY"
+  },
+  {
+   "id": 9382,
+   "code": "BABADAG",
+   "name": "BABADAĞ"
+  },
+  {
+   "id": 9383,
+   "code": "BAKLAN",
+   "name": "BAKLAN"
+  },
+  {
+   "id": 9384,
+   "code": "BEKILLI",
+   "name": "BEKİLLİ"
+  },
+  {
+   "id": 9385,
+   "code": "BEYAGAC",
+   "name": "BEYAĞAÇ"
+  },
+  {
+   "id": 9386,
+   "code": "BOZKURT",
+   "name": "BOZKURT"
+  },
+  {
+   "id": 9387,
+   "code": "BULDAN",
+   "name": "BULDAN"
+  },
+  {
+   "id": 9388,
+   "code": "CAL",
+   "name": "ÇAL"
+  },
+  {
+   "id": 9389,
+   "code": "CAMELI",
+   "name": "ÇAMELİ"
+  },
+  {
+   "id": 9390,
+   "code": "CARDAK",
+   "name": "ÇARDAK"
+  },
+  {
+   "id": 9391,
+   "code": "CIVRIL",
+   "name": "ÇİVRİL"
+  },
+  {
+   "id": 9392,
+   "code": "DENIZLI",
+   "name": "DENİZLİ"
+  },
+  {
+   "id": 9393,
+   "code": "HONAZ",
+   "name": "HONAZ"
+  },
+  {
+   "id": 9395,
+   "code": "SARAYKOY",
+   "name": "SARAYKÖY"
+  },
+  {
+   "id": 9396,
+   "code": "SERINHISAR",
+   "name": "SERİNHİSAR"
+  },
+  {
+   "id": 17899,
+   "code": "KALE",
+   "name": "KALE"
+  },
+  {
+   "id": 17900,
+   "code": "TAVAS",
+   "name": "TAVAS"
+  },
+  {
+   "id": 19020,
+   "code": "ACIPAYAM",
+   "name": "ACIPAYAM"
+  }
+ ],
+ "525": [
+  {
+   "id": 9397,
+   "code": "BISMIL",
+   "name": "BİSMİL"
+  },
+  {
+   "id": 9398,
+   "code": "CERMIK",
+   "name": "ÇERMİK"
+  },
+  {
+   "id": 9399,
+   "code": "CINAR",
+   "name": "ÇINAR"
+  },
+  {
+   "id": 9400,
+   "code": "CUNGUS",
+   "name": "ÇÜNGÜŞ"
+  },
+  {
+   "id": 9401,
+   "code": "DICLE",
+   "name": "DİCLE"
+  },
+  {
+   "id": 9402,
+   "code": "DIYARBAKIR",
+   "name": "DİYARBAKIR"
+  },
+  {
+   "id": 9403,
+   "code": "EGIL",
+   "name": "EĞİL"
+  },
+  {
+   "id": 9404,
+   "code": "ERGANI",
+   "name": "ERGANİ"
+  },
+  {
+   "id": 9405,
+   "code": "HANI",
+   "name": "HANİ"
+  },
+  {
+   "id": 9406,
+   "code": "HAZRO",
+   "name": "HAZRO"
+  },
+  {
+   "id": 9407,
+   "code": "KOCAKOY",
+   "name": "KOCAKÖY"
+  },
+  {
+   "id": 9408,
+   "code": "KULP",
+   "name": "KULP"
+  },
+  {
+   "id": 9409,
+   "code": "LICE",
+   "name": "LİCE"
+  },
+  {
+   "id": 9410,
+   "code": "SILVAN",
+   "name": "SİLVAN"
+  }
+ ],
+ "526": [
+  {
+   "id": 9411,
+   "code": "AKCAKOCA",
+   "name": "AKÇAKOCA"
+  },
+  {
+   "id": 9412,
+   "code": "CILIMLI",
+   "name": "ÇİLİMLİ"
+  },
+  {
+   "id": 9413,
+   "code": "CUMAYERI",
+   "name": "CUMAYERİ"
+  },
+  {
+   "id": 9414,
+   "code": "DUZCE",
+   "name": "DÜZCE"
+  },
+  {
+   "id": 9415,
+   "code": "GOLYAKA",
+   "name": "GÖLYAKA"
+  },
+  {
+   "id": 9416,
+   "code": "GUMUSOVA",
+   "name": "GÜMÜŞOVA"
+  },
+  {
+   "id": 9417,
+   "code": "KAYNASLI",
+   "name": "KAYNAŞLI"
+  },
+  {
+   "id": 9418,
+   "code": "YIGILCA",
+   "name": "YIĞILCA"
+  }
+ ],
+ "527": [
+  {
+   "id": 9419,
+   "code": "EDIRNE",
+   "name": "EDİRNE"
+  },
+  {
+   "id": 9420,
+   "code": "ENEZ",
+   "name": "ENEZ"
+  },
+  {
+   "id": 9421,
+   "code": "HAVSA",
+   "name": "HAVSA"
+  },
+  {
+   "id": 9422,
+   "code": "IPSALA",
+   "name": "İPSALA"
+  },
+  {
+   "id": 9423,
+   "code": "KESAN",
+   "name": "KEŞAN"
+  },
+  {
+   "id": 9424,
+   "code": "LALAPASA",
+   "name": "LALAPAŞA"
+  },
+  {
+   "id": 9425,
+   "code": "MERİC",
+   "name": "MERİÇ"
+  },
+  {
+   "id": 9426,
+   "code": "SULOGLU",
+   "name": "SÜLOĞLU"
+  },
+  {
+   "id": 9427,
+   "code": "UZUNKOPRU",
+   "name": "UZUNKÖPRÜ"
+  }
+ ],
+ "528": [
+  {
+   "id": 9428,
+   "code": "AGIN",
+   "name": "AĞIN"
+  },
+  {
+   "id": 9429,
+   "code": "ALACAKAYA",
+   "name": "ALACAKAYA"
+  },
+  {
+   "id": 9430,
+   "code": "ARICAK",
+   "name": "ARICAK"
+  },
+  {
+   "id": 9431,
+   "code": "BASKIL",
+   "name": "BASKİL"
+  },
+  {
+   "id": 9432,
+   "code": "ELAZIG",
+   "name": "ELAZIĞ"
+  },
+  {
+   "id": 9433,
+   "code": "KARAKOCAN",
+   "name": "KARAKOÇAN"
+  },
+  {
+   "id": 9434,
+   "code": "KEBAN",
+   "name": "KEBAN"
+  },
+  {
+   "id": 9435,
+   "code": "KOVANCILAR",
+   "name": "KOVANCILAR"
+  },
+  {
+   "id": 9436,
+   "code": "MADEN",
+   "name": "MADEN"
+  },
+  {
+   "id": 9437,
+   "code": "PALU",
+   "name": "PALU"
+  },
+  {
+   "id": 9438,
+   "code": "SIVRICE",
+   "name": "SİVRİCE"
+  }
+ ],
+ "529": [
+  {
+   "id": 9439,
+   "code": "CAYIRLI",
+   "name": "ÇAYIRLI"
+  },
+  {
+   "id": 9440,
+   "code": "ERZINCAN",
+   "name": "ERZİNCAN"
+  },
+  {
+   "id": 9441,
+   "code": "ILIÇ",
+   "name": "İLİÇ"
+  },
+  {
+   "id": 9442,
+   "code": "KEMAH",
+   "name": "KEMAH"
+  },
+  {
+   "id": 9443,
+   "code": "KEMALIYE",
+   "name": "KEMALİYE"
+  },
+  {
+   "id": 9444,
+   "code": "OTLUKBELI",
+   "name": "OTLUKBELİ"
+  },
+  {
+   "id": 9445,
+   "code": "REFAHIYE",
+   "name": "REFAHİYE"
+  },
+  {
+   "id": 9446,
+   "code": "TERCAN",
+   "name": "TERCAN"
+  },
+  {
+   "id": 9447,
+   "code": "UZUMLU",
+   "name": "ÜZÜMLÜ"
+  }
+ ],
+ "530": [
+  {
+   "id": 9448,
+   "code": "ASKALE",
+   "name": "AŞKALE"
+  },
+  {
+   "id": 9449,
+   "code": "AZIZIYE",
+   "name": "AZİZİYE"
+  },
+  {
+   "id": 9450,
+   "code": "CAT",
+   "name": "ÇAT"
+  },
+  {
+   "id": 9451,
+   "code": "ERZURUM",
+   "name": "ERZURUM"
+  },
+  {
+   "id": 9452,
+   "code": "HINIS",
+   "name": "HINIS"
+  },
+  {
+   "id": 9453,
+   "code": "HORASAN",
+   "name": "HORASAN"
+  },
+  {
+   "id": 9454,
+   "code": "ISPIR",
+   "name": "İSPİR"
+  },
+  {
+   "id": 9455,
+   "code": "KARACOBAN",
+   "name": "KARAÇOBAN"
+  },
+  {
+   "id": 9456,
+   "code": "KARAYAZI",
+   "name": "KARAYAZI"
+  },
+  {
+   "id": 9457,
+   "code": "KOPRUKOY",
+   "name": "KÖPRÜKÖY"
+  },
+  {
+   "id": 9458,
+   "code": "NARMAN",
+   "name": "NARMAN"
+  },
+  {
+   "id": 9459,
+   "code": "OLTU",
+   "name": "OLTU"
+  },
+  {
+   "id": 9460,
+   "code": "OLUR",
+   "name": "OLUR"
+  },
+  {
+   "id": 9461,
+   "code": "PASINLER",
+   "name": "PASİNLER"
+  },
+  {
+   "id": 9462,
+   "code": "PAZARYOLU",
+   "name": "PAZARYOLU"
+  },
+  {
+   "id": 9463,
+   "code": "SENKAYA",
+   "name": "ŞENKAYA"
+  },
+  {
+   "id": 9464,
+   "code": "TEKMAN",
+   "name": "TEKMAN"
+  },
+  {
+   "id": 9465,
+   "code": "TORTUM",
+   "name": "TORTUM"
+  },
+  {
+   "id": 9466,
+   "code": "UZUNDERE",
+   "name": "UZUNDERE"
+  }
+ ],
+ "531": [
+  {
+   "id": 9467,
+   "code": "ALPU",
+   "name": "ALPU"
+  },
+  {
+   "id": 9468,
+   "code": "BEYLIKOVA",
+   "name": "BEYLİKOVA"
+  },
+  {
+   "id": 9469,
+   "code": "CIFTELER",
+   "name": "ÇİFTELER"
+  },
+  {
+   "id": 9470,
+   "code": "ESKISEHIR",
+   "name": "ESKİŞEHİR"
+  },
+  {
+   "id": 9471,
+   "code": "GUNYUZU",
+   "name": "GÜNYÜZÜ"
+  },
+  {
+   "id": 9472,
+   "code": "HAN",
+   "name": "HAN"
+  },
+  {
+   "id": 9473,
+   "code": "INONU",
+   "name": "İNÖNÜ"
+  },
+  {
+   "id": 9474,
+   "code": "MAHMUDIYE",
+   "name": "MAHMUDİYE"
+  },
+  {
+   "id": 9475,
+   "code": "MIHALICCIK",
+   "name": "MİHALIÇÇIK"
+  },
+  {
+   "id": 9476,
+   "code": "SEYITGAZI",
+   "name": "SEYİTGAZİ"
+  },
+  {
+   "id": 9477,
+   "code": "SIVRIHISAR",
+   "name": "SİVRİHİSAR"
+  },
+  {
+   "id": 17919,
+   "code": "SARICAKAYA",
+   "name": "SARICAKAYA"
+  },
+  {
+   "id": 33292,
+   "code": "MIHALGAZI",
+   "name": "MİHALGAZİ"
+  }
+ ],
+ "532": [
+  {
+   "id": 9478,
+   "code": "ARABAN",
+   "name": "ARABAN"
+  },
+  {
+   "id": 9479,
+   "code": "GAZIANTEP",
+   "name": "GAZİANTEP"
+  },
+  {
+   "id": 9480,
+   "code": "ISLAHIYE",
+   "name": "İSLAHİYE"
+  },
+  {
+   "id": 9481,
+   "code": "KARKAMIS",
+   "name": "KARKAMIŞ"
+  },
+  {
+   "id": 9482,
+   "code": "NIZIP",
+   "name": "NİZİP"
+  },
+  {
+   "id": 9483,
+   "code": "NURDAGI",
+   "name": "NURDAĞI"
+  },
+  {
+   "id": 9484,
+   "code": "OGUZELI",
+   "name": "OĞUZELİ"
+  },
+  {
+   "id": 9485,
+   "code": "YAVUZELI",
+   "name": "YAVUZELİ"
+  }
+ ],
+ "533": [
+  {
+   "id": 9486,
+   "code": "ALUCRA",
+   "name": "ALUCRA"
+  },
+  {
+   "id": 9487,
+   "code": "BULANCAK",
+   "name": "BULANCAK"
+  },
+  {
+   "id": 9488,
+   "code": "CAMOLUK",
+   "name": "ÇAMOLUK"
+  },
+  {
+   "id": 9489,
+   "code": "CANAKCI",
+   "name": "ÇANAKÇI"
+  },
+  {
+   "id": 9490,
+   "code": "DERELI",
+   "name": "DERELİ"
+  },
+  {
+   "id": 9491,
+   "code": "DOGANKENT",
+   "name": "DOĞANKENT"
+  },
+  {
+   "id": 9492,
+   "code": "ESPIYE",
+   "name": "ESPİYE"
+  },
+  {
+   "id": 9493,
+   "code": "EYNESIL",
+   "name": "EYNESİL"
+  },
+  {
+   "id": 9494,
+   "code": "GIRESUN",
+   "name": "GİRESUN"
+  },
+  {
+   "id": 9495,
+   "code": "GORELE",
+   "name": "GÖRELE"
+  },
+  {
+   "id": 9496,
+   "code": "GUCE",
+   "name": "GÜCE"
+  },
+  {
+   "id": 9497,
+   "code": "KESAP",
+   "name": "KEŞAP"
+  },
+  {
+   "id": 9498,
+   "code": "PIRAZIZ",
+   "name": "PİRAZİZ"
+  },
+  {
+   "id": 9499,
+   "code": "TIREBOLU",
+   "name": "TİREBOLU"
+  },
+  {
+   "id": 9500,
+   "code": "YAGLIDERE",
+   "name": "YAĞLIDERE"
+  },
+  {
+   "id": 16706,
+   "code": "SEBINKARAHISAR",
+   "name": "ŞEBİNKARAHİSAR"
+  }
+ ],
+ "534": [
+  {
+   "id": 9501,
+   "code": "GUMUSHANE",
+   "name": "GÜMÜŞHANE"
+  },
+  {
+   "id": 9502,
+   "code": "KOSE",
+   "name": "KÖSE"
+  },
+  {
+   "id": 9503,
+   "code": "KURTUN",
+   "name": "KÜRTÜN"
+  },
+  {
+   "id": 9504,
+   "code": "SIRAN",
+   "name": "ŞİRAN"
+  },
+  {
+   "id": 9505,
+   "code": "TORUL",
+   "name": "TORUL"
+  },
+  {
+   "id": 16746,
+   "code": "KELKİT",
+   "name": "KELKİT"
+  }
+ ],
+ "535": [
+  {
+   "id": 9506,
+   "code": "CUKURCA",
+   "name": "ÇUKURCA"
+  },
+  {
+   "id": 9507,
+   "code": "HAKKARI",
+   "name": "HAKKARİ"
+  },
+  {
+   "id": 9508,
+   "code": "SEMDINLI",
+   "name": "ŞEMDİNLİ"
+  },
+  {
+   "id": 9509,
+   "code": "YUKSEKOVA",
+   "name": "YÜKSEKOVA"
+  },
+  {
+   "id": 20067,
+   "code": "DERECİK",
+   "name": "DERECİK"
+  }
+ ],
+ "536": [
+  {
+   "id": 9510,
+   "code": "ALTINÖZÜ",
+   "name": "ALTINÖZÜ"
+  },
+  {
+   "id": 9511,
+   "code": "BELEN",
+   "name": "BELEN"
+  },
+  {
+   "id": 9512,
+   "code": "DORTYOL",
+   "name": "DÖRTYOL"
+  },
+  {
+   "id": 9513,
+   "code": "ERZIN",
+   "name": "ERZİN"
+  },
+  {
+   "id": 9514,
+   "code": "HASSA",
+   "name": "HASSA"
+  },
+  {
+   "id": 9515,
+   "code": "ARSUZ",
+   "name": "ARSUZ"
+  },
+  {
+   "id": 9516,
+   "code": "ISKENDERUN",
+   "name": "İSKENDERUN"
+  },
+  {
+   "id": 9517,
+   "code": "KIRIKHAN",
+   "name": "KIRIKHAN"
+  },
+  {
+   "id": 9518,
+   "code": "KUMLU",
+   "name": "KUMLU"
+  },
+  {
+   "id": 9519,
+   "code": "REYHANLI",
+   "name": "REYHANLI"
+  },
+  {
+   "id": 9520,
+   "code": "SAMANDAG",
+   "name": "SAMANDAĞ"
+  },
+  {
+   "id": 16730,
+   "code": "YAYLADAGI",
+   "name": "YAYLADAĞI"
+  },
+  {
+   "id": 17810,
+   "code": "PAYAS",
+   "name": "PAYAS"
+  },
+  {
+   "id": 20089,
+   "code": "HATAY",
+   "name": "HATAY"
+  }
+ ],
+ "537": [
+  {
+   "id": 9521,
+   "code": "ARALIK",
+   "name": "ARALIK"
+  },
+  {
+   "id": 9522,
+   "code": "IGDIR",
+   "name": "IĞDIR"
+  },
+  {
+   "id": 9523,
+   "code": "KARAKOYUNLU",
+   "name": "KARAKOYUNLU"
+  },
+  {
+   "id": 9524,
+   "code": "TUZLUCA",
+   "name": "TUZLUCA"
+  }
+ ],
+ "538": [
+  {
+   "id": 9525,
+   "code": "AKSU (I)",
+   "name": "AKSU (I)"
+  },
+  {
+   "id": 9526,
+   "code": "EGIRDIR",
+   "name": "EĞİRDİR"
+  },
+  {
+   "id": 9527,
+   "code": "GELENDOST",
+   "name": "GELENDOST"
+  },
+  {
+   "id": 9528,
+   "code": "ISPARTA",
+   "name": "ISPARTA"
+  },
+  {
+   "id": 9529,
+   "code": "KECIBORLU",
+   "name": "KEÇİBORLU"
+  },
+  {
+   "id": 9530,
+   "code": "SARKI KARAAGAC",
+   "name": "ŞARKİ KARAAĞAÇ"
+  },
+  {
+   "id": 9531,
+   "code": "SUTCULER",
+   "name": "SÜTCÜLER"
+  },
+  {
+   "id": 9532,
+   "code": "ULUBORLU",
+   "name": "ULUBORLU"
+  },
+  {
+   "id": 9533,
+   "code": "YALVAC",
+   "name": "YALVAÇ"
+  },
+  {
+   "id": 9534,
+   "code": "YENISAR BADEMLI",
+   "name": "YENİSAR BADEMLİ"
+  },
+  {
+   "id": 17816,
+   "code": "SENİRKENT",
+   "name": "SENİRKENT"
+  },
+  {
+   "id": 17891,
+   "code": "ATABEY",
+   "name": "ATABEY"
+  },
+  {
+   "id": 17892,
+   "code": "GÖNEN",
+   "name": "GÖNEN"
+  }
+ ],
+ "539": [
+  {
+   "id": 9535,
+   "code": "ARNAVUTKOY",
+   "name": "ARNAVUTKOY"
+  },
+  {
+   "id": 9536,
+   "code": "BEYLIKDUZU",
+   "name": "BEYLİKDÜZÜ"
+  },
+  {
+   "id": 9537,
+   "code": "BUYUKCEKMECE",
+   "name": "BÜYÜKÇEKMECE"
+  },
+  {
+   "id": 9538,
+   "code": "CATALCA",
+   "name": "ÇATALCA"
+  },
+  {
+   "id": 9539,
+   "code": "CEKMEKOY",
+   "name": "ÇEKMEKÖY"
+  },
+  {
+   "id": 9540,
+   "code": "ESENYURT",
+   "name": "ESENYURT"
+  },
+  {
+   "id": 9541,
+   "code": "ISTANBUL",
+   "name": "İSTANBUL"
+  },
+  {
+   "id": 9542,
+   "code": "KARTAL",
+   "name": "KARTAL"
+  },
+  {
+   "id": 9543,
+   "code": "KUCUKCEKMECE",
+   "name": "KÜÇÜKÇEKMECE"
+  },
+  {
+   "id": 9544,
+   "code": "MALTEPE",
+   "name": "MALTEPE"
+  },
+  {
+   "id": 9545,
+   "code": "PENDIK",
+   "name": "PENDİK"
+  },
+  {
+   "id": 9546,
+   "code": "SANCAKTEPE",
+   "name": "SANCAKTEPE"
+  },
+  {
+   "id": 9547,
+   "code": "SILE",
+   "name": "ŞİLE"
+  },
+  {
+   "id": 9548,
+   "code": "SILIVRI",
+   "name": "SİLİVRİ"
+  },
+  {
+   "id": 9549,
+   "code": "SULTANBEYLI",
+   "name": "SULTANBEYLİ"
+  },
+  {
+   "id": 9550,
+   "code": "SULTANGAZI",
+   "name": "SULTANGAZİ"
+  },
+  {
+   "id": 9551,
+   "code": "TUZLA",
+   "name": "TUZLA"
+  },
+  {
+   "id": 17865,
+   "code": "AVCILAR",
+   "name": "AVCILAR"
+  },
+  {
+   "id": 17866,
+   "code": "BAŞAKŞEHİR",
+   "name": "BAŞAKŞEHİR"
+  }
+ ],
+ "540": [
+  {
+   "id": 9552,
+   "code": "ALIAGA",
+   "name": "ALİAĞA"
+  },
+  {
+   "id": 9553,
+   "code": "BAYINDIR",
+   "name": "BAYINDIR"
+  },
+  {
+   "id": 9554,
+   "code": "BERGAMA",
+   "name": "BERGAMA"
+  },
+  {
+   "id": 9555,
+   "code": "BEYDAG",
+   "name": "BEYDAĞ"
+  },
+  {
+   "id": 9556,
+   "code": "CESME",
+   "name": "CEŞME"
+  },
+  {
+   "id": 9557,
+   "code": "DIKILI",
+   "name": "DİKİLİ"
+  },
+  {
+   "id": 9558,
+   "code": "FOCA",
+   "name": "FOÇA"
+  },
+  {
+   "id": 9559,
+   "code": "GUZELBAHCE",
+   "name": "GÜZELBAHÇE"
+  },
+  {
+   "id": 9560,
+   "code": "IZMIR",
+   "name": "İZMİR"
+  },
+  {
+   "id": 9561,
+   "code": "KARABURUN",
+   "name": "KARABURUN"
+  },
+  {
+   "id": 9562,
+   "code": "KEMALPASA",
+   "name": "KEMALPAŞA"
+  },
+  {
+   "id": 9563,
+   "code": "KINIK",
+   "name": "KINIK"
+  },
+  {
+   "id": 9564,
+   "code": "KIRAZ",
+   "name": "KİRAZ"
+  },
+  {
+   "id": 9565,
+   "code": "ODEMIS",
+   "name": "ÖDEMİŞ"
+  },
+  {
+   "id": 9566,
+   "code": "SEFERIHISAR",
+   "name": "SEFERIHİSAR"
+  },
+  {
+   "id": 9567,
+   "code": "SELCUK",
+   "name": "SELÇUK"
+  },
+  {
+   "id": 9568,
+   "code": "TIRE",
+   "name": "TİRE"
+  },
+  {
+   "id": 9569,
+   "code": "TORBALI",
+   "name": "TORBALI"
+  },
+  {
+   "id": 9570,
+   "code": "URLA",
+   "name": "URLA"
+  },
+  {
+   "id": 17868,
+   "code": "MENDERES",
+   "name": "MENDERES"
+  },
+  {
+   "id": 17869,
+   "code": "MENEMEN",
+   "name": "MENEMEN"
+  }
+ ],
+ "541": [
+  {
+   "id": 9571,
+   "code": "AFSIN",
+   "name": "AFŞİN"
+  },
+  {
+   "id": 9572,
+   "code": "ANDIRIN",
+   "name": "ANDIRIN"
+  },
+  {
+   "id": 9573,
+   "code": "ÇAĞLAYANCERİT",
+   "name": "ÇAĞLAYANCERİT"
+  },
+  {
+   "id": 9574,
+   "code": "EKİNÖZÜ",
+   "name": "EKİNÖZÜ"
+  },
+  {
+   "id": 9575,
+   "code": "ELBİSTAN",
+   "name": "ELBİSTAN"
+  },
+  {
+   "id": 9576,
+   "code": "GÖKSUN",
+   "name": "GÖKSUN"
+  },
+  {
+   "id": 9577,
+   "code": "KAHRAMANMARAŞ",
+   "name": "KAHRAMANMARAŞ"
+  },
+  {
+   "id": 9578,
+   "code": "NURHAK",
+   "name": "NURHAK"
+  },
+  {
+   "id": 9579,
+   "code": "PAZARCIK",
+   "name": "PAZARCIK"
+  },
+  {
+   "id": 17908,
+   "code": "TÜRKOĞLU",
+   "name": "TÜRKOĞLU"
+  }
+ ],
+ "542": [
+  {
+   "id": 9580,
+   "code": "EFLANI",
+   "name": "EFLANİ"
+  },
+  {
+   "id": 9581,
+   "code": "KARABUK",
+   "name": "KARABÜK"
+  },
+  {
+   "id": 9582,
+   "code": "OVACIK (K)",
+   "name": "OVACIK (K)"
+  },
+  {
+   "id": 9583,
+   "code": "YENICE (K)",
+   "name": "YENİCE (K)"
+  },
+  {
+   "id": 17890,
+   "code": "ESKİPAZAR",
+   "name": "ESKİPAZAR"
+  }
+ ],
+ "543": [
+  {
+   "id": 9584,
+   "code": "AYRANCI",
+   "name": "AYRANCI"
+  },
+  {
+   "id": 9585,
+   "code": "BASYAYLA",
+   "name": "BAŞYAYLA"
+  },
+  {
+   "id": 9586,
+   "code": "ERMENEK",
+   "name": "ERMENEK"
+  },
+  {
+   "id": 9587,
+   "code": "KARAMAN",
+   "name": "KARAMAN"
+  },
+  {
+   "id": 9588,
+   "code": "KAZIMKARABEKIR",
+   "name": "KAZIMKARABEKİR"
+  },
+  {
+   "id": 9589,
+   "code": "SARIVELILER",
+   "name": "SARIVELİLER"
+  }
+ ],
+ "544": [
+  {
+   "id": 9590,
+   "code": "AKYAKA",
+   "name": "AKYAKA"
+  },
+  {
+   "id": 9591,
+   "code": "ARPACAY",
+   "name": "ARPAÇAY"
+  },
+  {
+   "id": 9592,
+   "code": "DIGOR",
+   "name": "DİGOR"
+  },
+  {
+   "id": 9593,
+   "code": "KAGIZMAN",
+   "name": "KAĞIZMAN"
+  },
+  {
+   "id": 9594,
+   "code": "KARS",
+   "name": "KARS"
+  },
+  {
+   "id": 9595,
+   "code": "SARIKAMIS",
+   "name": "SARIKAMIŞ"
+  },
+  {
+   "id": 9596,
+   "code": "SELIM",
+   "name": "SELİM"
+  },
+  {
+   "id": 17880,
+   "code": "SUSUZ",
+   "name": "SUSUZ"
+  }
+ ],
+ "545": [
+  {
+   "id": 9597,
+   "code": "ABANA",
+   "name": "ABANA"
+  },
+  {
+   "id": 9598,
+   "code": "AGLI",
+   "name": "AĞLI"
+  },
+  {
+   "id": 9599,
+   "code": "ARAC",
+   "name": "ARAÇ"
+  },
+  {
+   "id": 9600,
+   "code": "AZDAVAY",
+   "name": "AZDAVAY"
+  },
+  {
+   "id": 9601,
+   "code": "BOZKURT (K)",
+   "name": "BOZKURT (K)"
+  },
+  {
+   "id": 9602,
+   "code": "CATALZEYTIN",
+   "name": "ÇATALZEYTİN"
+  },
+  {
+   "id": 9603,
+   "code": "CIDE",
+   "name": "CİDE"
+  },
+  {
+   "id": 9604,
+   "code": "DADAY",
+   "name": "DADAY"
+  },
+  {
+   "id": 9605,
+   "code": "DOGANYURT",
+   "name": "DOĞANYURT"
+  },
+  {
+   "id": 9606,
+   "code": "HANONU",
+   "name": "HANÖNÜ"
+  },
+  {
+   "id": 9607,
+   "code": "IHSANGAZI",
+   "name": "İHSANGAZİ"
+  },
+  {
+   "id": 9608,
+   "code": "INEBOLU",
+   "name": "İNEBOLU"
+  },
+  {
+   "id": 9609,
+   "code": "KASTAMONU",
+   "name": "KASTAMONU"
+  },
+  {
+   "id": 9610,
+   "code": "KURE",
+   "name": "KÜRE"
+  },
+  {
+   "id": 9611,
+   "code": "PINARBASI (K)",
+   "name": "PINARBAŞI (K)"
+  },
+  {
+   "id": 9612,
+   "code": "SENPAZAR",
+   "name": "ŞENPAZAR"
+  },
+  {
+   "id": 9613,
+   "code": "TASKOPRU",
+   "name": "TAŞKÖPRÜ"
+  },
+  {
+   "id": 9614,
+   "code": "TOSYA",
+   "name": "TOSYA"
+  },
+  {
+   "id": 17885,
+   "code": "DEVREKANİ",
+   "name": "DEVREKANİ"
+  },
+  {
+   "id": 17886,
+   "code": "SEYDİLER",
+   "name": "SEYDİLER"
+  }
+ ],
+ "546": [
+  {
+   "id": 9615,
+   "code": "AKKISLA",
+   "name": "AKKIŞLA"
+  },
+  {
+   "id": 9616,
+   "code": "BUNYAN",
+   "name": "BÜNYAN"
+  },
+  {
+   "id": 9617,
+   "code": "DEVELI",
+   "name": "DEVELİ"
+  },
+  {
+   "id": 9618,
+   "code": "FELAHIYE",
+   "name": "FELAHİYE"
+  },
+  {
+   "id": 9619,
+   "code": "INCESU",
+   "name": "İNCESU"
+  },
+  {
+   "id": 9620,
+   "code": "KAYSERI",
+   "name": "KAYSERİ"
+  },
+  {
+   "id": 9621,
+   "code": "OZVATAN",
+   "name": "ÖZVATAN"
+  },
+  {
+   "id": 9622,
+   "code": "PINARBASI",
+   "name": "PINARBAŞI"
+  },
+  {
+   "id": 9623,
+   "code": "SARIOGLAN",
+   "name": "SARIOĞLAN"
+  },
+  {
+   "id": 9624,
+   "code": "SARIZ",
+   "name": "SARIZ"
+  },
+  {
+   "id": 9625,
+   "code": "TOMARZA",
+   "name": "TOMARZA"
+  },
+  {
+   "id": 9626,
+   "code": "YAHYALI",
+   "name": "YAHYALI"
+  },
+  {
+   "id": 9627,
+   "code": "YESILHISAR",
+   "name": "YEŞİLHİSAR"
+  }
+ ],
+ "547": [
+  {
+   "id": 9628,
+   "code": "ELBEYLI",
+   "name": "ELBEYLİ"
+  },
+  {
+   "id": 9629,
+   "code": "KILIS",
+   "name": "KİLİS"
+  },
+  {
+   "id": 9630,
+   "code": "MUSABEYLI",
+   "name": "MUSABEYLİ"
+  },
+  {
+   "id": 17907,
+   "code": "POLATELİ",
+   "name": "POLATELİ"
+  }
+ ],
+ "548": [
+  {
+   "id": 9631,
+   "code": "BALISEYH",
+   "name": "BALISEYH"
+  },
+  {
+   "id": 9632,
+   "code": "CELEBI",
+   "name": "CELEBI"
+  },
+  {
+   "id": 9633,
+   "code": "DELICE",
+   "name": "DELICE"
+  },
+  {
+   "id": 9634,
+   "code": "KARAKECILI",
+   "name": "KARAKECILI"
+  },
+  {
+   "id": 9635,
+   "code": "KIRIKKALE",
+   "name": "KIRIKKALE"
+  },
+  {
+   "id": 9636,
+   "code": "SULAKYURT",
+   "name": "SULAKYURT"
+  },
+  {
+   "id": 17897,
+   "code": "KESKİN",
+   "name": "KESKİN"
+  }
+ ],
+ "549": [
+  {
+   "id": 9637,
+   "code": "DEMIRKOY",
+   "name": "DEMIRKOY"
+  },
+  {
+   "id": 9638,
+   "code": "KIRKLARELI",
+   "name": "KIRKLARELİ"
+  },
+  {
+   "id": 9639,
+   "code": "LULEBURGAZ",
+   "name": "LULEBURGAZ"
+  },
+  {
+   "id": 9640,
+   "code": "PEHLIVANKOY",
+   "name": "PEHLIVANKOY"
+  },
+  {
+   "id": 9641,
+   "code": "PINARHISAR",
+   "name": "PINARHISAR"
+  },
+  {
+   "id": 9642,
+   "code": "VIZE",
+   "name": "VIZE"
+  },
+  {
+   "id": 17903,
+   "code": "BABAESKİ",
+   "name": "BABAESKİ"
+  }
+ ],
+ "550": [
+  {
+   "id": 9643,
+   "code": "AKPINAR",
+   "name": "AKPINAR"
+  },
+  {
+   "id": 9644,
+   "code": "CICEKDAGI",
+   "name": "CICEKDAGI"
+  },
+  {
+   "id": 9645,
+   "code": "KAMAN",
+   "name": "KAMAN"
+  },
+  {
+   "id": 9646,
+   "code": "KIRSEHIR",
+   "name": "KIRŞEHİR"
+  },
+  {
+   "id": 9647,
+   "code": "MUCUR",
+   "name": "MUCUR"
+  },
+  {
+   "id": 20039,
+   "code": "AKÇAKENT",
+   "name": "AKÇAKENT"
+  }
+ ],
+ "551": [
+  {
+   "id": 9648,
+   "code": "CAYIROVA",
+   "name": "ÇAYIROVA"
+  },
+  {
+   "id": 9649,
+   "code": "DARICA",
+   "name": "DARICA"
+  },
+  {
+   "id": 9650,
+   "code": "DILOVASI",
+   "name": "DİLOVASI"
+  },
+  {
+   "id": 9651,
+   "code": "GEBZE",
+   "name": "GEBZE"
+  },
+  {
+   "id": 9652,
+   "code": "KANDIRA",
+   "name": "KANDIRA"
+  },
+  {
+   "id": 9653,
+   "code": "KARAMURSEL",
+   "name": "KARAMÜRSEL"
+  },
+  {
+   "id": 9654,
+   "code": "KOCAELI",
+   "name": "KOCAELİ"
+  },
+  {
+   "id": 9655,
+   "code": "KORFEZ",
+   "name": "KÖRFEZ"
+  },
+  {
+   "id": 17902,
+   "code": "KARTEPE",
+   "name": "KARTEPE"
+  }
+ ],
+ "552": [
+  {
+   "id": 9656,
+   "code": "AHIRLI",
+   "name": "AHIRLI"
+  },
+  {
+   "id": 9657,
+   "code": "AKOREN",
+   "name": "AKÖREN"
+  },
+  {
+   "id": 9658,
+   "code": "AKSEHIR",
+   "name": "AKŞEHİR"
+  },
+  {
+   "id": 9659,
+   "code": "ALTINEKIN",
+   "name": "ALTINEKİN"
+  },
+  {
+   "id": 9660,
+   "code": "BEYSEHIR",
+   "name": "BEYŞEHİR"
+  },
+  {
+   "id": 9661,
+   "code": "BOZKIR",
+   "name": "BOZKIR"
+  },
+  {
+   "id": 9662,
+   "code": "CELTIK",
+   "name": "ÇELTİK"
+  },
+  {
+   "id": 9663,
+   "code": "CIHANBEYLI",
+   "name": "CİHANBEYLİ"
+  },
+  {
+   "id": 9664,
+   "code": "CUMRA",
+   "name": "ÇUMRA"
+  },
+  {
+   "id": 9665,
+   "code": "DERBENT",
+   "name": "DERBENT"
+  },
+  {
+   "id": 9666,
+   "code": "DEREBUCAK",
+   "name": "DEREBUCAK"
+  },
+  {
+   "id": 9667,
+   "code": "DOGANHISAR",
+   "name": "DOĞANHİSAR"
+  },
+  {
+   "id": 9668,
+   "code": "EMIRGAZI",
+   "name": "EMİRGAZİ"
+  },
+  {
+   "id": 9669,
+   "code": "EREGLI",
+   "name": "EREĞLİ"
+  },
+  {
+   "id": 9670,
+   "code": "GUNEYSINIR",
+   "name": "GÜNEYSINIR"
+  },
+  {
+   "id": 9671,
+   "code": "HALKAPINAR",
+   "name": "HALKAPINAR"
+  },
+  {
+   "id": 9672,
+   "code": "HUYUK",
+   "name": "HÜYÜK"
+  },
+  {
+   "id": 9673,
+   "code": "ILGIN",
+   "name": "ILGIN"
+  },
+  {
+   "id": 9674,
+   "code": "KADINHANI",
+   "name": "KADINHANI"
+  },
+  {
+   "id": 9675,
+   "code": "KARAPINAR",
+   "name": "KARAPINAR"
+  },
+  {
+   "id": 9676,
+   "code": "KONYA",
+   "name": "KONYA"
+  },
+  {
+   "id": 9677,
+   "code": "KULU",
+   "name": "KULU"
+  },
+  {
+   "id": 9678,
+   "code": "SEYDISEHIR",
+   "name": "SEYDİŞEHİR"
+  },
+  {
+   "id": 9679,
+   "code": "TUZLUKCU",
+   "name": "TUZLUKÇU"
+  },
+  {
+   "id": 9680,
+   "code": "YALIHUYUK",
+   "name": "YALIHÜYÜK"
+  },
+  {
+   "id": 9681,
+   "code": "YUNAK",
+   "name": "YUNAK"
+  },
+  {
+   "id": 16704,
+   "code": "HADIM",
+   "name": "HADİM"
+  },
+  {
+   "id": 17870,
+   "code": "MERAM",
+   "name": "MERAM"
+  },
+  {
+   "id": 17871,
+   "code": "SELÇUKLU",
+   "name": "SELÇUKLU"
+  },
+  {
+   "id": 17872,
+   "code": "KARATAY",
+   "name": "KARATAY"
+  },
+  {
+   "id": 17873,
+   "code": "TAŞKENT",
+   "name": "TAŞKENT"
+  },
+  {
+   "id": 17874,
+   "code": "SARAYÖNÜ",
+   "name": "SARAYÖNÜ"
+  }
+ ],
+ "553": [
+  {
+   "id": 9682,
+   "code": "ALTINTAS",
+   "name": "ALTINTAŞ"
+  },
+  {
+   "id": 9683,
+   "code": "ASLANAPA",
+   "name": "ASLANAPA"
+  },
+  {
+   "id": 9684,
+   "code": "CAVDARHISAR",
+   "name": "ÇAVDARHİSAR"
+  },
+  {
+   "id": 9685,
+   "code": "DOMANIC",
+   "name": "DOMANİÇ"
+  },
+  {
+   "id": 9686,
+   "code": "EMET",
+   "name": "EMET"
+  },
+  {
+   "id": 9687,
+   "code": "GEDIZ",
+   "name": "GEDİZ"
+  },
+  {
+   "id": 9688,
+   "code": "HISARCIK",
+   "name": "HİSARCIK"
+  },
+  {
+   "id": 9689,
+   "code": "KUTAHYA",
+   "name": "KÜTAHYA"
+  },
+  {
+   "id": 9690,
+   "code": "PAZARLAR",
+   "name": "PAZARLAR"
+  },
+  {
+   "id": 9691,
+   "code": "SAPHANE",
+   "name": "ŞAPHANE"
+  },
+  {
+   "id": 9692,
+   "code": "SIMAV",
+   "name": "SİMAV"
+  },
+  {
+   "id": 9693,
+   "code": "TAVSANLI",
+   "name": "TAVŞANLI"
+  },
+  {
+   "id": 17906,
+   "code": "DUMLUPINAR",
+   "name": "DUMLUPINAR"
+  }
+ ],
+ "554": [
+  {
+   "id": 9694,
+   "code": "AKCADAG",
+   "name": "AKÇADAĞ"
+  },
+  {
+   "id": 9695,
+   "code": "ARAPGIR",
+   "name": "ARAPGİR"
+  },
+  {
+   "id": 9696,
+   "code": "ARGUVAN",
+   "name": "ARGUVAN"
+  },
+  {
+   "id": 9697,
+   "code": "DARENDE",
+   "name": "DARENDE"
+  },
+  {
+   "id": 9698,
+   "code": "DOGANSEHIR",
+   "name": "DOĞANŞEHİR"
+  },
+  {
+   "id": 9699,
+   "code": "DOGANYOL",
+   "name": "DOĞANYOL"
+  },
+  {
+   "id": 9700,
+   "code": "HEKIMHAN",
+   "name": "HEKİMHAN"
+  },
+  {
+   "id": 9701,
+   "code": "KALE (M)",
+   "name": "KALE (M)"
+  },
+  {
+   "id": 9702,
+   "code": "KULUNCAK",
+   "name": "KULUNCAK"
+  },
+  {
+   "id": 9703,
+   "code": "MALATYA",
+   "name": "MALATYA"
+  },
+  {
+   "id": 9704,
+   "code": "PUTURGE",
+   "name": "PÜTÜRGE"
+  },
+  {
+   "id": 9705,
+   "code": "YAZIHAN",
+   "name": "YAZIHAN"
+  },
+  {
+   "id": 9706,
+   "code": "YESILYURT",
+   "name": "YEŞİLYURT"
+  }
+ ],
+ "555": [
+  {
+   "id": 9707,
+   "code": "AHMETLI",
+   "name": "AHMETLİ"
+  },
+  {
+   "id": 9708,
+   "code": "AKHISAR",
+   "name": "AKHİSAR"
+  },
+  {
+   "id": 9709,
+   "code": "ALASEHIR",
+   "name": "ALAŞEHİR"
+  },
+  {
+   "id": 9710,
+   "code": "DEMIRCI",
+   "name": "DEMİRCİ"
+  },
+  {
+   "id": 9711,
+   "code": "GOLMARMARA",
+   "name": "GÖLMARMARA"
+  },
+  {
+   "id": 9712,
+   "code": "GORDES",
+   "name": "GÖRDES"
+  },
+  {
+   "id": 9713,
+   "code": "KIRKAGAC",
+   "name": "KIRKAĞAÇ"
+  },
+  {
+   "id": 9714,
+   "code": "KOPRUBASI",
+   "name": "KÖPRÜBAŞI"
+  },
+  {
+   "id": 9715,
+   "code": "KULA",
+   "name": "KULA"
+  },
+  {
+   "id": 9716,
+   "code": "MANISA",
+   "name": "MANİSA"
+  },
+  {
+   "id": 9717,
+   "code": "SALIHLI",
+   "name": "SALİHLİ"
+  },
+  {
+   "id": 9718,
+   "code": "SARIGOL",
+   "name": "SARIGÖL"
+  },
+  {
+   "id": 9719,
+   "code": "SARUHANLI",
+   "name": "SARUHANLI"
+  },
+  {
+   "id": 9720,
+   "code": "SELENDI",
+   "name": "SELENDİ"
+  },
+  {
+   "id": 9721,
+   "code": "SOMA",
+   "name": "SOMA"
+  },
+  {
+   "id": 9722,
+   "code": "TURGUTLU",
+   "name": "TURGUTLU"
+  }
+ ],
+ "556": [
+  {
+   "id": 9723,
+   "code": "DARGECIT",
+   "name": "DARGECİT"
+  },
+  {
+   "id": 9724,
+   "code": "DERIK",
+   "name": "DERİK"
+  },
+  {
+   "id": 9725,
+   "code": "KIZILTEPE",
+   "name": "KIZILTEPE"
+  },
+  {
+   "id": 9726,
+   "code": "MARDIN",
+   "name": "MARDİN"
+  },
+  {
+   "id": 9727,
+   "code": "MAZIDAGI",
+   "name": "MAZIDAĞI"
+  },
+  {
+   "id": 9728,
+   "code": "MIDYAT",
+   "name": "MİDYAT"
+  },
+  {
+   "id": 9729,
+   "code": "NUSAYBIN",
+   "name": "NUSAYBİN"
+  },
+  {
+   "id": 9730,
+   "code": "OMERLI",
+   "name": "ÖMERLİ"
+  },
+  {
+   "id": 17901,
+   "code": "SAVUR",
+   "name": "SAVUR"
+  }
+ ],
+ "557": [
+  {
+   "id": 9731,
+   "code": "ANAMUR",
+   "name": "ANAMUR"
+  },
+  {
+   "id": 9732,
+   "code": "AYDINCIK",
+   "name": "AYDINCIK"
+  },
+  {
+   "id": 9733,
+   "code": "BOZYAZI",
+   "name": "BOZYAZI"
+  },
+  {
+   "id": 9734,
+   "code": "CAMLIYAYLA",
+   "name": "ÇAMLIYAYLA"
+  },
+  {
+   "id": 9735,
+   "code": "ERDEMLI",
+   "name": "ERDEMLİ"
+  },
+  {
+   "id": 9736,
+   "code": "GULNAR",
+   "name": "GÜLNAR"
+  },
+  {
+   "id": 9737,
+   "code": "MERSIN",
+   "name": "MERSİN"
+  },
+  {
+   "id": 9738,
+   "code": "MUT",
+   "name": "MUT"
+  },
+  {
+   "id": 9739,
+   "code": "SILIFKE",
+   "name": "SİLİFKE"
+  },
+  {
+   "id": 9740,
+   "code": "TARSUS",
+   "name": "TARSUS"
+  }
+ ],
+ "558": [
+  {
+   "id": 9741,
+   "code": "BODRUM",
+   "name": "BODRUM"
+  },
+  {
+   "id": 9742,
+   "code": "DALAMAN",
+   "name": "DALAMAN"
+  },
+  {
+   "id": 9743,
+   "code": "DATCA",
+   "name": "DATÇA"
+  },
+  {
+   "id": 9744,
+   "code": "FETHIYE",
+   "name": "FETHİYE"
+  },
+  {
+   "id": 9745,
+   "code": "KOYCEGIZ",
+   "name": "KÖYCEĞİZ"
+  },
+  {
+   "id": 9746,
+   "code": "MILAS",
+   "name": "MİLAS"
+  },
+  {
+   "id": 9747,
+   "code": "MUGLA",
+   "name": "MUĞLA"
+  },
+  {
+   "id": 9748,
+   "code": "ORTACA",
+   "name": "ORTACA"
+  },
+  {
+   "id": 9749,
+   "code": "ULA",
+   "name": "ULA"
+  },
+  {
+   "id": 9750,
+   "code": "YATAGAN",
+   "name": "YATAĞAN"
+  },
+  {
+   "id": 17883,
+   "code": "MARMARİS",
+   "name": "MARMARİS"
+  },
+  {
+   "id": 17884,
+   "code": "SEYDİKEMER",
+   "name": "SEYDİKEMER"
+  }
+ ],
+ "559": [
+  {
+   "id": 9751,
+   "code": "BULANIK",
+   "name": "BULANIK"
+  },
+  {
+   "id": 9752,
+   "code": "HASKOY",
+   "name": "HASKÖY"
+  },
+  {
+   "id": 9753,
+   "code": "KORKUT",
+   "name": "KORKUT"
+  },
+  {
+   "id": 9754,
+   "code": "MALAZGIRT",
+   "name": "MALAZGİRT"
+  },
+  {
+   "id": 9755,
+   "code": "MUS",
+   "name": "MUŞ"
+  },
+  {
+   "id": 9756,
+   "code": "VARTO",
+   "name": "VARTO"
+  }
+ ],
+ "560": [
+  {
+   "id": 9757,
+   "code": "ACIGOL",
+   "name": "ACIGÖL"
+  },
+  {
+   "id": 9758,
+   "code": "HACIBEKTAS",
+   "name": "HACIBEKTAŞ"
+  },
+  {
+   "id": 9759,
+   "code": "KOZAKLI",
+   "name": "KOZAKLI"
+  },
+  {
+   "id": 9760,
+   "code": "NEVSEHIR",
+   "name": "NEVŞEHİR"
+  },
+  {
+   "id": 9761,
+   "code": "URGUP",
+   "name": "ÜRGÜP"
+  },
+  {
+   "id": 17878,
+   "code": "AVANOS",
+   "name": "AVANOS"
+  }
+ ],
+ "561": [
+  {
+   "id": 9762,
+   "code": "ALTUNHISAR",
+   "name": "ALTUNHİSAR"
+  },
+  {
+   "id": 9763,
+   "code": "BOR",
+   "name": "BOR"
+  },
+  {
+   "id": 9764,
+   "code": "CAMARDI",
+   "name": "ÇAMARDI"
+  },
+  {
+   "id": 9765,
+   "code": "CIFTLIK",
+   "name": "ÇİFTLİK"
+  },
+  {
+   "id": 9766,
+   "code": "NIGDE",
+   "name": "NİĞDE"
+  },
+  {
+   "id": 9767,
+   "code": "ULUKISLA",
+   "name": "ULUKIŞLA"
+  }
+ ],
+ "562": [
+  {
+   "id": 9768,
+   "code": "AKKUS",
+   "name": "AKKUŞ"
+  },
+  {
+   "id": 9769,
+   "code": "AYBASTI",
+   "name": "AYBASTI"
+  },
+  {
+   "id": 9770,
+   "code": "CAMAS",
+   "name": "ÇAMAŞ"
+  },
+  {
+   "id": 9771,
+   "code": "CATALPINAR",
+   "name": "ÇATALPINAR"
+  },
+  {
+   "id": 9772,
+   "code": "CAYBASI",
+   "name": "ÇAYBAŞI"
+  },
+  {
+   "id": 9773,
+   "code": "FATSA",
+   "name": "FATSA"
+  },
+  {
+   "id": 9774,
+   "code": "GOLKOY",
+   "name": "GÖLKÖY"
+  },
+  {
+   "id": 9775,
+   "code": "GULYALI",
+   "name": "GÜLYALI"
+  },
+  {
+   "id": 9776,
+   "code": "GURGENTEPE",
+   "name": "GÜRGENTEPE"
+  },
+  {
+   "id": 9777,
+   "code": "IKIZCE",
+   "name": "İKİZCE"
+  },
+  {
+   "id": 9778,
+   "code": "KABATAS",
+   "name": "KABATAŞ"
+  },
+  {
+   "id": 9779,
+   "code": "KORGAN",
+   "name": "KORGAN"
+  },
+  {
+   "id": 9780,
+   "code": "KUMRU",
+   "name": "KUMRU"
+  },
+  {
+   "id": 9781,
+   "code": "MESUDIYE",
+   "name": "MESUDİYE"
+  },
+  {
+   "id": 9782,
+   "code": "ORDU",
+   "name": "ORDU"
+  },
+  {
+   "id": 9783,
+   "code": "UNYE",
+   "name": "ÜNYE"
+  }
+ ],
+ "563": [
+  {
+   "id": 9784,
+   "code": "BAHCE",
+   "name": "BAHÇE"
+  },
+  {
+   "id": 9785,
+   "code": "DUZICI",
+   "name": "DÜZİÇİ"
+  },
+  {
+   "id": 9786,
+   "code": "HASANBEYLI",
+   "name": "HASANBEYLİ"
+  },
+  {
+   "id": 9787,
+   "code": "KADIRLI",
+   "name": "KADİRLİ"
+  },
+  {
+   "id": 9788,
+   "code": "OSMANIYE",
+   "name": "OSMANİYE"
+  },
+  {
+   "id": 9789,
+   "code": "SUMBAS",
+   "name": "SUMBAS"
+  },
+  {
+   "id": 9790,
+   "code": "TOPRAKKALE",
+   "name": "TOPRAKKALE"
+  }
+ ],
+ "564": [
+  {
+   "id": 9791,
+   "code": "ARDESEN",
+   "name": "ARDEŞEN"
+  },
+  {
+   "id": 9792,
+   "code": "CAMLIHEMSIN",
+   "name": "ÇAMLIHEMŞİN"
+  },
+  {
+   "id": 9793,
+   "code": "CAYELI",
+   "name": "ÇAYELİ"
+  },
+  {
+   "id": 9794,
+   "code": "FINDIKLI",
+   "name": "FINDIKLI"
+  },
+  {
+   "id": 9795,
+   "code": "HEMSIN",
+   "name": "HEMŞİN"
+  },
+  {
+   "id": 9796,
+   "code": "IKIZDERE",
+   "name": "İKİZDERE"
+  },
+  {
+   "id": 9797,
+   "code": "IYIDERE",
+   "name": "İYİDERE"
+  },
+  {
+   "id": 9798,
+   "code": "PAZAR",
+   "name": "PAZAR"
+  },
+  {
+   "id": 9799,
+   "code": "RIZE",
+   "name": "RİZE"
+  }
+ ],
+ "565": [
+  {
+   "id": 9800,
+   "code": "AKYAZI",
+   "name": "AKYAZI"
+  },
+  {
+   "id": 9801,
+   "code": "GEYVE",
+   "name": "GEYVE"
+  },
+  {
+   "id": 9802,
+   "code": "HENDEK",
+   "name": "HENDEK"
+  },
+  {
+   "id": 9803,
+   "code": "KARASU",
+   "name": "KARASU"
+  },
+  {
+   "id": 9804,
+   "code": "KAYNARCA",
+   "name": "KAYNARCA"
+  },
+  {
+   "id": 9805,
+   "code": "KOCAALI",
+   "name": "KOCAALİ"
+  },
+  {
+   "id": 9806,
+   "code": "PAMUKOVA",
+   "name": "PAMUKOVA"
+  },
+  {
+   "id": 9807,
+   "code": "SAKARYA",
+   "name": "SAKARYA"
+  },
+  {
+   "id": 9808,
+   "code": "TARAKLI",
+   "name": "TARAKLI"
+  }
+ ],
+ "566": [
+  {
+   "id": 9809,
+   "code": "19 MAYIS",
+   "name": "19 MAYIS"
+  },
+  {
+   "id": 9810,
+   "code": "ALACAM",
+   "name": "ALAÇAM"
+  },
+  {
+   "id": 9811,
+   "code": "ASARCIK",
+   "name": "ASARCIK"
+  },
+  {
+   "id": 9812,
+   "code": "AYVACIK (S)",
+   "name": "AYVACIK (S)"
+  },
+  {
+   "id": 9813,
+   "code": "BAFRA",
+   "name": "BAFRA"
+  },
+  {
+   "id": 9814,
+   "code": "ÇARŞAMBA",
+   "name": "ÇARŞAMBA"
+  },
+  {
+   "id": 9815,
+   "code": "HAVZA",
+   "name": "HAVZA"
+  },
+  {
+   "id": 9816,
+   "code": "KAVAK",
+   "name": "KAVAK"
+  },
+  {
+   "id": 9817,
+   "code": "LADİK",
+   "name": "LADİK"
+  },
+  {
+   "id": 9818,
+   "code": "SALIPAZARI",
+   "name": "SALIPAZARI"
+  },
+  {
+   "id": 9819,
+   "code": "SAMSUN",
+   "name": "SAMSUN"
+  },
+  {
+   "id": 9820,
+   "code": "TEKKEKÖY",
+   "name": "TEKKEKÖY"
+  },
+  {
+   "id": 9821,
+   "code": "TERME",
+   "name": "TERME"
+  },
+  {
+   "id": 9822,
+   "code": "VEZİRKÖPRÜ",
+   "name": "VEZİRKÖPRÜ"
+  },
+  {
+   "id": 9823,
+   "code": "YAKAKENT",
+   "name": "YAKAKENT"
+  },
+  {
+   "id": 17911,
+   "code": "ATAKUM",
+   "name": "ATAKUM"
+  }
+ ],
+ "567": [
+  {
+   "id": 9824,
+   "code": "AKCAKALE",
+   "name": "AKÇAKALE"
+  },
+  {
+   "id": 9825,
+   "code": "BIRECIK",
+   "name": "BİRECİK"
+  },
+  {
+   "id": 9826,
+   "code": "BOZOVA",
+   "name": "BOZOVA"
+  },
+  {
+   "id": 9827,
+   "code": "CEYLANPINAR",
+   "name": "CEYLANPINAR"
+  },
+  {
+   "id": 9828,
+   "code": "HALFETI",
+   "name": "HALFETİ"
+  },
+  {
+   "id": 9829,
+   "code": "HARRAN",
+   "name": "HARRAN"
+  },
+  {
+   "id": 9830,
+   "code": "HILVAN",
+   "name": "HİLVAN"
+  },
+  {
+   "id": 9831,
+   "code": "SANLIURFA",
+   "name": "ŞANLIURFA"
+  },
+  {
+   "id": 9832,
+   "code": "SIVEREK",
+   "name": "SİVEREK"
+  },
+  {
+   "id": 9833,
+   "code": "SURUC",
+   "name": "SURUÇ"
+  },
+  {
+   "id": 9834,
+   "code": "VIRANSEHIR",
+   "name": "VİRANŞEHİR"
+  }
+ ],
+ "568": [
+  {
+   "id": 9835,
+   "code": "BAYKAN",
+   "name": "BAYKAN"
+  },
+  {
+   "id": 9836,
+   "code": "ERUH",
+   "name": "ERUH"
+  },
+  {
+   "id": 9837,
+   "code": "KURTALAN",
+   "name": "KURTALAN"
+  },
+  {
+   "id": 9838,
+   "code": "PERVARI",
+   "name": "PERVARİ"
+  },
+  {
+   "id": 9839,
+   "code": "SIIRT",
+   "name": "SİİRT"
+  },
+  {
+   "id": 17888,
+   "code": "ŞIRVAN",
+   "name": "ŞIRVAN"
+  }
+ ],
+ "569": [
+  {
+   "id": 9840,
+   "code": "AYANCIK",
+   "name": "AYANCIK"
+  },
+  {
+   "id": 9841,
+   "code": "BOYABAT",
+   "name": "BOYABAT"
+  },
+  {
+   "id": 9842,
+   "code": "DİKMEN",
+   "name": "DİKMEN"
+  },
+  {
+   "id": 9843,
+   "code": "DURAĞAN",
+   "name": "DURAĞAN"
+  },
+  {
+   "id": 9844,
+   "code": "ERFELEK",
+   "name": "ERFELEK"
+  },
+  {
+   "id": 9845,
+   "code": "GERZE",
+   "name": "GERZE"
+  },
+  {
+   "id": 9846,
+   "code": "SARAYDÜZÜ",
+   "name": "SARAYDÜZÜ"
+  },
+  {
+   "id": 9847,
+   "code": "SINOP",
+   "name": "SİNOP"
+  },
+  {
+   "id": 9848,
+   "code": "TÜRKELİ",
+   "name": "TÜRKELİ"
+  }
+ ],
+ "570": [
+  {
+   "id": 9849,
+   "code": "BEYTUSSEBAP",
+   "name": "BEYTÜŞŞEBAP"
+  },
+  {
+   "id": 9850,
+   "code": "CIZRE",
+   "name": "CİZRE"
+  },
+  {
+   "id": 9851,
+   "code": "GUCLUKONAK",
+   "name": "GÜÇLÜKONAK"
+  },
+  {
+   "id": 9852,
+   "code": "IDIL",
+   "name": "İDİL"
+  },
+  {
+   "id": 9853,
+   "code": "SILOPI",
+   "name": "SİLOPİ"
+  },
+  {
+   "id": 9854,
+   "code": "SIRNAK",
+   "name": "ŞIRNAK"
+  },
+  {
+   "id": 9855,
+   "code": "ULUDERE",
+   "name": "ULUDERE"
+  }
+ ],
+ "571": [
+  {
+   "id": 9856,
+   "code": "AKINCILAR",
+   "name": "AKINCILAR"
+  },
+  {
+   "id": 9857,
+   "code": "ALTINYAYLA(S)",
+   "name": "ALTINYAYLA(S)"
+  },
+  {
+   "id": 9858,
+   "code": "DIVRIGI",
+   "name": "DİVRİĞİ"
+  },
+  {
+   "id": 9859,
+   "code": "DOGANSAR",
+   "name": "DOĞANŞAR"
+  },
+  {
+   "id": 9860,
+   "code": "GEMEREK",
+   "name": "GEMEREK"
+  },
+  {
+   "id": 9861,
+   "code": "GOLOVA",
+   "name": "GÖLOVA"
+  },
+  {
+   "id": 9862,
+   "code": "GURUN",
+   "name": "GÜRÜN"
+  },
+  {
+   "id": 9863,
+   "code": "HAFIK",
+   "name": "HAFİK"
+  },
+  {
+   "id": 9864,
+   "code": "IMRANLI",
+   "name": "İMRANLI"
+  },
+  {
+   "id": 9865,
+   "code": "KANGAL",
+   "name": "KANGAL"
+  },
+  {
+   "id": 9866,
+   "code": "KOYULHISAR",
+   "name": "KOYULHİSAR"
+  },
+  {
+   "id": 9867,
+   "code": "SARKISLA",
+   "name": "ŞARKIŞLA"
+  },
+  {
+   "id": 9868,
+   "code": "SIVAS",
+   "name": "SİVAS"
+  },
+  {
+   "id": 9869,
+   "code": "SUSEHRI",
+   "name": "SUŞEHRİ"
+  },
+  {
+   "id": 9870,
+   "code": "YILDIZELI",
+   "name": "YILDIZELİ"
+  },
+  {
+   "id": 9871,
+   "code": "ZARA",
+   "name": "ZARA"
+  },
+  {
+   "id": 17920,
+   "code": "ULAŞ",
+   "name": "ULAŞ"
+  }
+ ],
+ "572": [
+  {
+   "id": 9872,
+   "code": "CERKEZKOY",
+   "name": "ÇERKEZKÖY"
+  },
+  {
+   "id": 9873,
+   "code": "CORLU",
+   "name": "ÇORLU"
+  },
+  {
+   "id": 9874,
+   "code": "HAYRABOLU",
+   "name": "HAYRABOLU"
+  },
+  {
+   "id": 9875,
+   "code": "M.EREGLISI",
+   "name": "M.EREĞLİSİ"
+  },
+  {
+   "id": 9876,
+   "code": "MALKARA",
+   "name": "MALKARA"
+  },
+  {
+   "id": 9877,
+   "code": "SARAY",
+   "name": "SARAY"
+  },
+  {
+   "id": 9878,
+   "code": "SARKOY",
+   "name": "ŞARKÖY"
+  },
+  {
+   "id": 9879,
+   "code": "TEKIRDAG",
+   "name": "TEKİRDAĞ"
+  },
+  {
+   "id": 17904,
+   "code": "ERGENE",
+   "name": "ERGENE"
+  },
+  {
+   "id": 17905,
+   "code": "KAPAKLI",
+   "name": "KAPAKLI"
+  }
+ ],
+ "573": [
+  {
+   "id": 9880,
+   "code": "ALMUS",
+   "name": "ALMUS"
+  },
+  {
+   "id": 9881,
+   "code": "ARTOVA",
+   "name": "ARTOVA"
+  },
+  {
+   "id": 9882,
+   "code": "BAŞÇİFTLİK",
+   "name": "BAŞÇİFTLİK"
+  },
+  {
+   "id": 9883,
+   "code": "NİKSAR",
+   "name": "NİKSAR"
+  },
+  {
+   "id": 9884,
+   "code": "PAZAR (T)",
+   "name": "PAZAR (T)"
+  },
+  {
+   "id": 9885,
+   "code": "REŞADİYE",
+   "name": "REŞADİYE"
+  },
+  {
+   "id": 9886,
+   "code": "SULUSARAY",
+   "name": "SULUSARAY"
+  },
+  {
+   "id": 9887,
+   "code": "TOKAT",
+   "name": "TOKAT"
+  },
+  {
+   "id": 9888,
+   "code": "TURHAL",
+   "name": "TURHAL"
+  },
+  {
+   "id": 9889,
+   "code": "YEŞİLYURT",
+   "name": "YEŞİLYURT"
+  },
+  {
+   "id": 9890,
+   "code": "ZİLE",
+   "name": "ZİLE"
+  },
+  {
+   "id": 17910,
+   "code": "ERBAA",
+   "name": "ERBAA"
+  }
+ ],
+ "574": [
+  {
+   "id": 9891,
+   "code": "AKCAABAT",
+   "name": "AKÇAABAT"
+  },
+  {
+   "id": 9892,
+   "code": "ARAKLI",
+   "name": "ARAKLI"
+  },
+  {
+   "id": 9893,
+   "code": "ARSIN",
+   "name": "ARSİN"
+  },
+  {
+   "id": 9894,
+   "code": "BESIKDUZU",
+   "name": "BEŞİKDÜZÜ"
+  },
+  {
+   "id": 9895,
+   "code": "CARSIBASI",
+   "name": "ÇARŞIBAŞI"
+  },
+  {
+   "id": 9896,
+   "code": "CAYKARA",
+   "name": "ÇAYKARA"
+  },
+  {
+   "id": 9897,
+   "code": "DERNEKPAZARI",
+   "name": "DERNEKPAZARI"
+  },
+  {
+   "id": 9898,
+   "code": "DUZKOY",
+   "name": "DÜZKÖY"
+  },
+  {
+   "id": 9899,
+   "code": "HAYRAT",
+   "name": "HAYRAT"
+  },
+  {
+   "id": 9900,
+   "code": "KOPRUBASI (T)",
+   "name": "KÖPRÜBAŞI (T)"
+  },
+  {
+   "id": 9901,
+   "code": "OF",
+   "name": "OF"
+  },
+  {
+   "id": 9902,
+   "code": "SALPAZARI",
+   "name": "ŞALPAZARI"
+  },
+  {
+   "id": 9903,
+   "code": "SURMENE",
+   "name": "SÜRMENE"
+  },
+  {
+   "id": 9904,
+   "code": "TONYA",
+   "name": "TONYA"
+  },
+  {
+   "id": 9905,
+   "code": "TRABZON",
+   "name": "TRABZON"
+  },
+  {
+   "id": 9906,
+   "code": "VAKFIKEBIR",
+   "name": "VAKFIKEBİR"
+  },
+  {
+   "id": 9907,
+   "code": "YOMRA",
+   "name": "YOMRA"
+  }
+ ],
+ "575": [
+  {
+   "id": 9908,
+   "code": "CEMISGEZEK",
+   "name": "ÇEMİŞGEZEK"
+  },
+  {
+   "id": 9909,
+   "code": "HOZAT",
+   "name": "HOZAT"
+  },
+  {
+   "id": 9910,
+   "code": "NAZIMIYE",
+   "name": "NAZİMİYE"
+  },
+  {
+   "id": 9911,
+   "code": "OVACIK",
+   "name": "OVACIK"
+  },
+  {
+   "id": 9912,
+   "code": "PERTEK",
+   "name": "PERTEK"
+  },
+  {
+   "id": 9913,
+   "code": "PULUMUR",
+   "name": "PÜLÜMÜR"
+  },
+  {
+   "id": 9914,
+   "code": "TUNCELI",
+   "name": "TUNCELİ"
+  }
+ ],
+ "576": [
+  {
+   "id": 9915,
+   "code": "BANAZ",
+   "name": "BANAZ"
+  },
+  {
+   "id": 9916,
+   "code": "ESME",
+   "name": "ESME"
+  },
+  {
+   "id": 9917,
+   "code": "KARAHALLI",
+   "name": "KARAHALLI"
+  },
+  {
+   "id": 9918,
+   "code": "SIVASLI",
+   "name": "SİVASLI"
+  },
+  {
+   "id": 9919,
+   "code": "USAK",
+   "name": "UŞAK"
+  },
+  {
+   "id": 17909,
+   "code": "USAK",
+   "name": "ULUBEY"
+  }
+ ],
+ "577": [
+  {
+   "id": 9920,
+   "code": "BAHCESARAY",
+   "name": "BAHÇESARAY"
+  },
+  {
+   "id": 9921,
+   "code": "BASKALE",
+   "name": "BAŞKALE"
+  },
+  {
+   "id": 9922,
+   "code": "CALDIRAN",
+   "name": "ÇALDIRAN"
+  },
+  {
+   "id": 9923,
+   "code": "CATAK",
+   "name": "ÇATAK"
+  },
+  {
+   "id": 9924,
+   "code": "EDREMIT (V)",
+   "name": "EDREMİT (V)"
+  },
+  {
+   "id": 9925,
+   "code": "ERCIS",
+   "name": "ERCİŞ"
+  },
+  {
+   "id": 9926,
+   "code": "GEVAS",
+   "name": "GEVAŞ"
+  },
+  {
+   "id": 9927,
+   "code": "MURADIYE",
+   "name": "MURADİYE"
+  },
+  {
+   "id": 9928,
+   "code": "OZALP",
+   "name": "ÖZALP"
+  },
+  {
+   "id": 9929,
+   "code": "SARAY (V)",
+   "name": "SARAY (V)"
+  },
+  {
+   "id": 9930,
+   "code": "VAN",
+   "name": "VAN"
+  },
+  {
+   "id": 17912,
+   "code": "GÜRPINAR",
+   "name": "GÜRPINAR"
+  }
+ ],
+ "578": [
+  {
+   "id": 9931,
+   "code": "ALTINOVA",
+   "name": "ALTINOVA"
+  },
+  {
+   "id": 9932,
+   "code": "ARMUTLU",
+   "name": "ARMUTLU"
+  },
+  {
+   "id": 9933,
+   "code": "CINARCIK",
+   "name": "ÇINARCIK"
+  },
+  {
+   "id": 9934,
+   "code": "TERMAL",
+   "name": "TERMAL"
+  },
+  {
+   "id": 9935,
+   "code": "YALOVA",
+   "name": "YALOVA"
+  }
+ ],
+ "579": [
+  {
+   "id": 9936,
+   "code": "AKDAGMADENI",
+   "name": "AKDAĞMADENİ"
+  },
+  {
+   "id": 9937,
+   "code": "AYDINCIK (Y)",
+   "name": "AYDINCIK (Y)"
+  },
+  {
+   "id": 9938,
+   "code": "BOGAZLIYAN",
+   "name": "BOĞAZLIYAN"
+  },
+  {
+   "id": 9939,
+   "code": "CANDIR",
+   "name": "ÇANDIR"
+  },
+  {
+   "id": 9940,
+   "code": "CAYIRALAN",
+   "name": "ÇAYIRALAN"
+  },
+  {
+   "id": 9941,
+   "code": "CEKEREK",
+   "name": "ÇEKEREK"
+  },
+  {
+   "id": 9942,
+   "code": "KADISEHRI",
+   "name": "KADIŞEHRİ"
+  },
+  {
+   "id": 9943,
+   "code": "SARAYKENT",
+   "name": "SARAYKENT"
+  },
+  {
+   "id": 9944,
+   "code": "SARIKAYA",
+   "name": "SARIKAYA"
+  },
+  {
+   "id": 9946,
+   "code": "SORGUN",
+   "name": "SORGUN"
+  },
+  {
+   "id": 9947,
+   "code": "YENIFAKILI",
+   "name": "YENİFAKILI"
+  },
+  {
+   "id": 9948,
+   "code": "YERKOY",
+   "name": "YERKÖY"
+  },
+  {
+   "id": 9949,
+   "code": "YOZGAT",
+   "name": "YOZGAT"
+  },
+  {
+   "id": 17879,
+   "code": "ŞEFAATLİ",
+   "name": "ŞEFAATLİ"
+  }
+ ],
+ "580": [
+  {
+   "id": 9950,
+   "code": "ALAPLI",
+   "name": "ALAPLI"
+  },
+  {
+   "id": 9951,
+   "code": "CAYCUMA",
+   "name": "ÇAYCUMA"
+  },
+  {
+   "id": 9952,
+   "code": "DEVREK",
+   "name": "DEVREK"
+  },
+  {
+   "id": 9953,
+   "code": "GOKCEBEY",
+   "name": "GÖKÇEBEY"
+  },
+  {
+   "id": 9954,
+   "code": "KARADENIZ EREGLI",
+   "name": "KARADENİZ EREĞLİ"
+  },
+  {
+   "id": 9955,
+   "code": "ZONGULDAK",
+   "name": "ZONGULDAK"
+  }
+ ]
+}

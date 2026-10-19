@@ -1,0 +1,407 @@
+[
+ {
+  "id": 500,
+  "code": "ADANA",
+  "name": "ADANA"
+ },
+ {
+  "id": 501,
+  "code": "ADIYAMAN",
+  "name": "ADIYAMAN"
+ },
+ {
+  "id": 502,
+  "code": "AFYONKARAHISAR",
+  "name": "AFYONKARAHİSAR"
+ },
+ {
+  "id": 503,
+  "code": "AGRI",
+  "name": "AĞRI"
+ },
+ {
+  "id": 504,
+  "code": "AKSARAY",
+  "name": "AKSARAY"
+ },
+ {
+  "id": 505,
+  "code": "AMASYA",
+  "name": "AMASYA"
+ },
+ {
+  "id": 506,
+  "code": "ANKARA",
+  "name": "ANKARA"
+ },
+ {
+  "id": 507,
+  "code": "ANTALYA",
+  "name": "ANTALYA"
+ },
+ {
+  "id": 508,
+  "code": "ARDAHAN",
+  "name": "ARDAHAN"
+ },
+ {
+  "id": 509,
+  "code": "ARTVIN",
+  "name": "ARTVİN"
+ },
+ {
+  "id": 510,
+  "code": "AYDIN",
+  "name": "AYDIN"
+ },
+ {
+  "id": 511,
+  "code": "BALIKESIR",
+  "name": "BALIKESİR"
+ },
+ {
+  "id": 512,
+  "code": "BARTIN",
+  "name": "BARTIN"
+ },
+ {
+  "id": 513,
+  "code": "BATMAN",
+  "name": "BATMAN"
+ },
+ {
+  "id": 514,
+  "code": "BAYBURT",
+  "name": "BAYBURT"
+ },
+ {
+  "id": 515,
+  "code": "BILECIK",
+  "name": "BİLECİK"
+ },
+ {
+  "id": 516,
+  "code": "BINGOL",
+  "name": "BİNGÖL"
+ },
+ {
+  "id": 517,
+  "code": "BITLIS",
+  "name": "BİTLİS"
+ },
+ {
+  "id": 518,
+  "code": "BOLU",
+  "name": "BOLU"
+ },
+ {
+  "id": 519,
+  "code": "BURDUR",
+  "name": "BURDUR"
+ },
+ {
+  "id": 520,
+  "code": "BURSA",
+  "name": "BURSA"
+ },
+ {
+  "id": 521,
+  "code": "CANAKKALE",
+  "name": "ÇANAKKALE"
+ },
+ {
+  "id": 522,
+  "code": "CANKIRI",
+  "name": "ÇANKIRI"
+ },
+ {
+  "id": 523,
+  "code": "CORUM",
+  "name": "ÇORUM"
+ },
+ {
+  "id": 524,
+  "code": "DENIZLI",
+  "name": "DENİZLİ"
+ },
+ {
+  "id": 525,
+  "code": "DIYARBAKIR",
+  "name": "DİYARBAKIR"
+ },
+ {
+  "id": 526,
+  "code": "DUZCE",
+  "name": "DÜZCE"
+ },
+ {
+  "id": 527,
+  "code": "EDIRNE",
+  "name": "EDİRNE"
+ },
+ {
+  "id": 528,
+  "code": "ELAZIG",
+  "name": "ELAZIĞ"
+ },
+ {
+  "id": 529,
+  "code": "ERZINCAN",
+  "name": "ERZİNCAN"
+ },
+ {
+  "id": 530,
+  "code": "ERZURUM",
+  "name": "ERZURUM"
+ },
+ {
+  "id": 531,
+  "code": "ESKISEHIR",
+  "name": "ESKİŞEHİR"
+ },
+ {
+  "id": 532,
+  "code": "GAZIANTEP",
+  "name": "GAZİANTEP"
+ },
+ {
+  "id": 533,
+  "code": "GIRESUN",
+  "name": "GİRESUN"
+ },
+ {
+  "id": 534,
+  "code": "GUMUSHANE",
+  "name": "GÜMÜŞHANE"
+ },
+ {
+  "id": 535,
+  "code": "HAKKARI",
+  "name": "HAKKARİ"
+ },
+ {
+  "id": 536,
+  "code": "HATAY",
+  "name": "HATAY"
+ },
+ {
+  "id": 537,
+  "code": "IGDIR",
+  "name": "IĞDIR"
+ },
+ {
+  "id": 538,
+  "code": "ISPARTA",
+  "name": "ISPARTA"
+ },
+ {
+  "id": 539,
+  "code": "ISTANBUL",
+  "name": "İSTANBUL"
+ },
+ {
+  "id": 540,
+  "code": "IZMIR",
+  "name": "İZMİR"
+ },
+ {
+  "id": 541,
+  "code": "KAHRAMANMARAS",
+  "name": "KAHRAMANMARAŞ"
+ },
+ {
+  "id": 542,
+  "code": "KARABUK",
+  "name": "KARABÜK"
+ },
+ {
+  "id": 543,
+  "code": "KARAMAN",
+  "name": "KARAMAN"
+ },
+ {
+  "id": 544,
+  "code": "KARS",
+  "name": "KARS"
+ },
+ {
+  "id": 545,
+  "code": "KASTAMONU",
+  "name": "KASTAMONU"
+ },
+ {
+  "id": 546,
+  "code": "KAYSERI",
+  "name": "KAYSERİ"
+ },
+ {
+  "id": 547,
+  "code": "KILIS",
+  "name": "KİLİS"
+ },
+ {
+  "id": 548,
+  "code": "KIRIKKALE",
+  "name": "KIRIKKALE"
+ },
+ {
+  "id": 549,
+  "code": "KIRKLARELI",
+  "name": "KIRKLARELİ"
+ },
+ {
+  "id": 550,
+  "code": "KIRSEHIR",
+  "name": "KIRŞEHİR"
+ },
+ {
+  "id": 551,
+  "code": "KOCAELI",
+  "name": "KOCAELİ"
+ },
+ {
+  "id": 552,
+  "code": "KONYA",
+  "name": "KONYA"
+ },
+ {
+  "id": 553,
+  "code": "KUTAHYA",
+  "name": "KÜTAHYA"
+ },
+ {
+  "id": 554,
+  "code": "MALATYA",
+  "name": "MALATYA"
+ },
+ {
+  "id": 555,
+  "code": "MANISA",
+  "name": "MANİSA"
+ },
+ {
+  "id": 556,
+  "code": "MARDIN",
+  "name": "MARDİN"
+ },
+ {
+  "id": 557,
+  "code": "MERSIN",
+  "name": "MERSİN"
+ },
+ {
+  "id": 558,
+  "code": "MUGLA",
+  "name": "MUĞLA"
+ },
+ {
+  "id": 559,
+  "code": "MUS",
+  "name": "MUŞ"
+ },
+ {
+  "id": 560,
+  "code": "NEVSEHIR",
+  "name": "NEVŞEHİR"
+ },
+ {
+  "id": 561,
+  "code": "NIGDE",
+  "name": "NİĞDE"
+ },
+ {
+  "id": 562,
+  "code": "ORDU",
+  "name": "ORDU"
+ },
+ {
+  "id": 563,
+  "code": "OSMANIYE",
+  "name": "OSMANİYE"
+ },
+ {
+  "id": 564,
+  "code": "RIZE",
+  "name": "RİZE"
+ },
+ {
+  "id": 565,
+  "code": "SAKARYA",
+  "name": "SAKARYA"
+ },
+ {
+  "id": 566,
+  "code": "SAMSUN",
+  "name": "SAMSUN"
+ },
+ {
+  "id": 567,
+  "code": "SANLIURFA",
+  "name": "ŞANLIURFA"
+ },
+ {
+  "id": 568,
+  "code": "SIIRT",
+  "name": "SİİRT"
+ },
+ {
+  "id": 569,
+  "code": "SINOP",
+  "name": "SİNOP"
+ },
+ {
+  "id": 570,
+  "code": "SIRNAK",
+  "name": "ŞIRNAK"
+ },
+ {
+  "id": 571,
+  "code": "SIVAS",
+  "name": "SİVAS"
+ },
+ {
+  "id": 572,
+  "code": "TEKIRDAG",
+  "name": "TEKİRDAĞ"
+ },
+ {
+  "id": 573,
+  "code": "TOKAT",
+  "name": "TOKAT"
+ },
+ {
+  "id": 574,
+  "code": "TRABZON",
+  "name": "TRABZON"
+ },
+ {
+  "id": 575,
+  "code": "TUNCELI",
+  "name": "TUNCELİ"
+ },
+ {
+  "id": 576,
+  "code": "USAK",
+  "name": "UŞAK"
+ },
+ {
+  "id": 577,
+  "code": "VAN",
+  "name": "VAN"
+ },
+ {
+  "id": 578,
+  "code": "YALOVA",
+  "name": "YALOVA"
+ },
+ {
+  "id": 579,
+  "code": "YOZGAT",
+  "name": "YOZGAT"
+ },
+ {
+  "id": 580,
+  "code": "ZONGULDAK",
+  "name": "ZONGULDAK"
+ }
+]
