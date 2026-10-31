@@ -1,0 +1,43 @@
+name: Camileri çek
+
+on:
+  schedule:
+    - cron: '23 2 3 * *'   # her ayın 3'ü 05:23 (TSİ)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Vakit, kur ve hutbe işleriyle aynı grup: aynı anda push etmesinler.
+concurrency: cek
+
+jobs:
+  camiler:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Doğrula
+        run: python3 -I betik/camiler_test.py
+      - name: osmium
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq osmium-tool
+      - name: Türkiye çıkarımını indir
+        run: curl -fsSL --retry 3 -o "$RUNNER_TEMP/tr.osm.pbf" https://download.geofabrik.de/europe/turkey-latest.osm.pbf
+      - name: Ayıkla
+        run: |
+          osmium tags-filter "$RUNNER_TEMP/tr.osm.pbf" nwr/religion=muslim nwr/building=mosque -o "$RUNNER_TEMP/cami.osm.pbf"
+          osmium export "$RUNNER_TEMP/cami.osm.pbf" -f geojsonseq --add-unique-id=type_id -o "$RUNNER_TEMP/cami.geojsonseq"
+          python3 -I betik/camiler.py "$RUNNER_TEMP/cami.geojsonseq" camiler
+          du -sh camiler
+      - name: Kaydet
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add camiler
+          git diff --cached --quiet && exit 0
+          git commit -m "Camiler $(date -u +%F)"
+          git pull --rebase
+          git push
