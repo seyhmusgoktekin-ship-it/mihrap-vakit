@@ -14,7 +14,12 @@ servisine doğrudan bağlanmaz.
   (`betik/kur.py`, `.github/workflows/kur.yml`, her gün; doğrulama: `python3 -I betik/kur_test.py`).
   Adres: https://seyhmusgoktekin-ship-it.github.io/mihrap-vakit/kur/usd.json
 
-Vakit verisinin kaynağı: T.C. Diyanet İşleri Başkanlığı.
+- `hutbe/guncel.json`: Diyanet'in o haftaki Türkçe cuma hutbesi (yalnız güncel olan)
+  `{tarih, baslik, bolumler: [{tur: hitap|paragraf, metin}], dipnotlar, kaynak, adres}`; paragraflarda dipnot
+  başvuruları `[1]`… (`betik/hutbe.py`, `.github/workflows/hutbe.yml`, perşembe ve cuma; doğrulama:
+  `python3 -I betik/hutbe_test.py`). Adres: https://seyhmusgoktekin-ship-it.github.io/mihrap-vakit/hutbe/guncel.json
+
+Vakit verisinin ve hutbelerin kaynağı: T.C. Diyanet İşleri Başkanlığı (hutbeler: Din Hizmetleri Genel Müdürlüğü).
 
 Kurların kaynağı: [ExchangeRate-API](https://www.exchangerate-api.com) (Rates By Exchange Rate API);
 yedek kaynak [fawazahmed0/exchange-api](https://github.com/fawazahmed0/exchange-api) (CC0).

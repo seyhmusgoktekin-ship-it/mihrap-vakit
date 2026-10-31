@@ -1,0 +1,37 @@
+name: Cuma hutbesini çek
+
+on:
+  schedule:
+    # Diyanet hutbeyi genelde perşembe, en geç cuma sabahı yayımlar (saatler TSİ).
+    - cron: '0 6,11,17 * * 4'   # perşembe 09:00, 14:00, 20:00
+    - cron: '0 3,6 * * 5'       # cuma 06:00, 09:00
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Vakit ve kur işleriyle aynı grup: aynı anda push etmesinler.
+concurrency: cek
+
+jobs:
+  hutbe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Doğrula
+        run: python3 -I betik/hutbe_test.py
+      - name: Çek
+        run: python3 -I betik/hutbe.py
+      - name: Kaydet
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add hutbe
+          git diff --cached --quiet && exit 0
+          git commit -m "Hutbe $(date -u +%F)"
+          git pull --rebase
+          git push
