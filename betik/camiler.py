@@ -32,7 +32,7 @@ ETIKETLER = (
 # Türkiye'nin kabaca sınırları; Geofabrik çıkarımının kenarından taşan komşu ülke kayıtlarını da kapsar
 SINIR = (35.5, 42.5, 25.5, 45.0)  # güney, kuzey, batı, doğu
 # Bunun altına düşerse iş durur, eski dosyalar kalır (çıkarım bozuk ya da yarım inmiş olabilir)
-EN_AZ = 80000  # 2026-10-31 ilk çekim: 113.735
+EN_AZ = 40000  # 2026-10-31 çekim: 57.828 (osmium kapalı yolu hem yol hem alan olarak verir; tekrar ayıklanır)
 
 
 class CamiHatasi(Exception):
