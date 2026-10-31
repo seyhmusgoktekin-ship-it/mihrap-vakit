@@ -32,7 +32,7 @@ ETIKETLER = (
 # Türkiye'nin kabaca sınırları; Geofabrik çıkarımının kenarından taşan komşu ülke kayıtlarını da kapsar
 SINIR = (35.5, 42.5, 25.5, 45.0)  # güney, kuzey, batı, doğu
 # Bunun altına düşerse iş durur, eski dosyalar kalır (çıkarım bozuk ya da yarım inmiş olabilir)
-EN_AZ = 10000
+EN_AZ = 80000  # 2026-10-31 ilk çekim: 113.735
 
 
 class CamiHatasi(Exception):
@@ -77,6 +77,14 @@ def kare_adi(enlem, boylam):
     return f'{math.floor(enlem / KARE) * KARE:.1f}_{math.floor(boylam / KARE) * KARE:.1f}'
 
 
+def osm_kimligi(kimlik):
+    """osmium kapalı yolu/ilişkiyi alan (a<2·id>, ilişkiyse +1) olarak verir; uygulama n/w/r bekler."""
+    if kimlik[:1] == 'a' and kimlik[1:].isdigit():
+        n = int(kimlik[1:])
+        return f"{'r' if n % 2 else 'w'}{n // 2}"
+    return kimlik
+
+
 def ayikla(satirlar):
     """GeoJSON satırları → {kare adı: [[kimlik, enlem, boylam, etiketler], ...]}"""
     kareler = {}
@@ -89,8 +97,8 @@ def ayikla(satirlar):
         etiket = f.get('properties') or {}
         if not ilgili_mi(etiket):
             continue
-        kimlik = str(f.get('id') or etiket.get('@id') or '')
-        # type_id kimliği: n123 / w123 / r123
+        kimlik = osm_kimligi(str(f.get('id') or etiket.get('@id') or ''))
+        # type_id kimliği: n123 / w123 / r123 (alanlar a… gelir, çevrilir)
         if not kimlik or kimlik in gorulen:
             continue
         m = merkez(f.get('geometry') or {})

@@ -49,6 +49,13 @@ class Ayikla(unittest.TestCase):
         k = camiler.ayikla([satir('n6', {'type': 'Point', 'coordinates': [44.5, 33.3]}, religion='muslim')])
         self.assertEqual(k, {})
 
+    def test_alan_kimligi_yol_ya_da_iliski(self):
+        self.assertEqual(camiler.osm_kimligi('a2042'), 'w1021')
+        self.assertEqual(camiler.osm_kimligi('a2043'), 'r1021')
+        self.assertEqual(camiler.osm_kimligi('n7'), 'n7')
+        k = camiler.ayikla([satir('a20', BINA, building='mosque'), satir('w10', BINA, building='mosque')])
+        self.assertEqual([o[0] for o in k['37.0_35.0']], ['w10'])
+
     def test_kare_adi_eksi_ve_sinir(self):
         self.assertEqual(camiler.kare_adi(37.49, 35.5), '37.0_35.5')
         self.assertEqual(camiler.kare_adi(41.0, 28.99), '41.0_28.5')
