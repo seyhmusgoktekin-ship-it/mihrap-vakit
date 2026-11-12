@@ -1,6 +1,6 @@
 {
- "tarih": "2026-11-06",
- "baslik": "İbadet",
+ "tarih": "2026-11-13",
+ "baslik": "Dijital Mecrada Ahlak",
  "bolumler": [
   {
    "tur": "hitap",
@@ -8,7 +8,27 @@
   },
   {
    "tur": "paragraf",
-   "metin": "Cenâb-ı Hakk’a olan bağlılığımızın en somut göstergesi ibadetlerimizdir. İbadetler; yaratılış gayemizdir, imanımızın hayata yansımasıdır. Rabbimizin bize sunduğu nimetlere karşı şükrümüzün gereği, O’nun sonsuz rahmetine ulaşma arzumuzdur. İhlasla eda ettiğimiz her ibadet; dilimizin zikirle buluşmasına, hayatımızın mutlulukla dolmasına vesiledir."
+   "metin": "İletişim teknolojilerinin büyük bir hızla geliştiği günümüzde, beşeri ve toplumsal ilişkilerimiz, “sosyal medya” adı verilen sanal mecralarda şekillenmeye başladı. Bilginin saniyeler içinde yayıldığı, kimliklerin dijital maskelerin arkasına gizlendiği, doğru ile yanlışı ayırmanın hayli zorlaştığı bu mecralar, bütün dünyada ahlaki erozyonun yaşanmasına sebebiyet vermektedir. Yaşadığımız bu gelişmeler ve değişimler, sorumluluklarımızı yeniden gözden geçirmeyi, dijital dünyada da edebi, mahremiyeti ve doğruluğu gözetmeyi bizlere vazife kılmaktadır."
+  },
+  {
+   "tur": "hitap",
+   "metin": "Sevgili Gençler!"
+  },
+  {
+   "tur": "paragraf",
+   "metin": "Hak ve hakikatin daha fazla insana ulaştırılması adına dijital mecraları etkin bir şekilde kullanmak hem çağın sunduğu imkân hem de gerekliliktir. Ne var ki değerlerini başkalarının beğenileriyle ölçen kimi insanlar, sosyal medya sebebiyle özünden kopabilmekte, beğenilme arzusuna kapılabilmekte, gösteriş ve tüketimin esiri haline gelebilmektedir. Bu ortamların sunduğu görünmezlik hissi de bazı insanları; tecessüs, yalan, hakaret ve iftira gibi yanlış davranışlara sevk edebilmektedir. Oysa ekranın diğer ucunda da incitilmemesi gereken bir gönül, haysiyeti korunması gereken bir insan vardır. Mümin, gerçek hayatta olduğu gibi sosyal medyada da ilkeli, tutarlı ve kontrollü hareket etmelidir. Söz ve davranışlarını, ahlaki bir süzgeçten geçirdikten sonra dijital mecralarda paylaşmalıdır. Sevgili Peygamberimiz (s.a.s), bir hadis-i şeriflerinde “Her duyduğunu söylemesi kişiye günah olarak yeter”[1] buyurmaktadır."
+  },
+  {
+   "tur": "hitap",
+   "metin": "Kıymetli Anneler ve Babalar!"
+  },
+  {
+   "tur": "hitap",
+   "metin": "Değerli Kardeşlerim!"
+  },
+  {
+   "tur": "paragraf",
+   "metin": "Dijital dünyanın bilinçsiz kullanımı, özellikle çocuklarımızı ve gençlerimizi olumsuz etkilemektedir. Sosyal medyada geçirilen uzun saatler, evlatlarımızın hayatın gerçeklerinden uzaklaşmasına, dikkatlerinin dağılmasına ve faydasız içeriklerle vakit kaybetmesine yol açabilmektedir. Ancak şu hususu asla unutmayalım ki; her birimiz, çocuklarımızı ve gençlerimizi dijital dünyanın tehlikelerine karşı korumakla ve onlara bilinçli teknoloji kullanımı konusunda rehberlik etmekle sorumluyuz."
   },
   {
    "tur": "hitap",
@@ -16,44 +36,26 @@
   },
   {
    "tur": "paragraf",
-   "metin": "Rabbimizin farz kıldığı, şekli ve vakti belli ibadetler, dinimizin direği ve kulluğumuzun özüdür. Namaz bizleri; hayâsızlıktan ve kötülükten uzak tutar, günahlardan temizler, gönlümüzü huzura erdirir. Oruç; takvayı, sabrı, muhtacın derdiyle dertlenmeyi bizlere öğretir. Zekât, malımızı ve servetimizi maddi ve manevi kirlerden arındırırken bizleri de cimrilik hastalığından korur. Hac ise kötü sözlerden, kavgadan ve öfkeden uzak kalmayı, bütün insanların Allah katında bir tarağın dişleri gibi eşit olduğunu bizlere hatırlatır."
+   "metin": "Yüce Rabbimiz, “Hakkında bilgin olmayan şeyin ardına düşme! Çünkü kulak, göz ve gönül, bunların hepsi ondan sorumludur”[2] uyarısında bulunmaktadır. Bize düşen; Cenâb-ı Hakk’ın hepimizi murakabe ettiğinin bilinciyle hareket etmek; söylediğimiz sözlerin, paylaştığımız bilgilerin ve yaptığımız yorumların doğuracağı sonuçları hesaba katmaktır. Dijital mecraları samimiyetin, kardeşliğin, hakikatin ve güzel ahlakın yayılmasına vesile kılmaktır."
   },
   {
    "tur": "hitap",
-   "metin": "Kıymetli Müslümanlar!"
+   "metin": "Kardeşlerim!"
   },
   {
    "tur": "paragraf",
-   "metin": "Allah’ın rızasını gözeterek yaptığımız her iyilik ve her hayırlı iş aynı zamanda bir ibadettir.[1] Nitekim kendimizin ve ailemizin rızkını helal yollardan kazanmak, alışverişte dürüst olmak, çalışıp üretmek ibadettir. Ailemiz, akrabamız ve komşularımızla bağımızı güçlü tutmak, onlarla ilgilenmek, onların sevinçlerini ve kederlerini paylaşmak ibadettir. Engelli bir kardeşimizin hayatını kolaylaştırmak, ihtiyaç sahibi bir öğrencinin eğitimine destek olmak, geçim sıkıntısı çeken bir komşumuzun yardımına koşmak ibadettir. Rahmet Elçisi (s.a.s)’in, “Kul, kardeşinin yardımında olduğu sürece, Allah da o kulun yardımcısıdır”[2] muştusuna nail olabilmek ne büyük saadettir."
-  },
-  {
-   "tur": "hitap",
-   "metin": "Değerli Müminler!"
+   "metin": "Belki bu hutbeyi dinlerken bile gözlerimiz telefon ekranlarına hapsolabiliyor; zihnimiz, sanal akışın gürültüsünden söylenenleri duyamayabiliyor. Bu sözlerimi; siz kıymetli kardeşlerimi kırmak için değil, bir farkındalık oluşturmak için ifade ediyorum. Zira avucumuzdaki ekranlar, farkına varmadan vaktimizin çoğunu alırken; yanı başımızdaki bir sohbetin bereketinden, ailemizle paylaşacağımız muhabbetten, evlatlarımıza bırakacağımız hatıralardan bizleri mahrum bırakabilmektedir."
   },
   {
    "tur": "paragraf",
-   "metin": "Yeri geldiğinde yüzümüzde beliren bir tebessüm, yeri geldiğinde insanlara eziyet veren engelleri kaldırmak, yeri geldiğinde ise mazlum ve mağdurlara el uzatmak bir sadakadır ve her sadaka bir ibadettir. Kimi zaman bir hastaya kan vererek can olmak, kimi zaman da çaresizce bekleyen bir kardeşimiz için dini ve tıbbi hassasiyetleri dikkate alarak organ bağışında bulunmak bir iyiliktir ve her iyilik bir ibadettir. Ayet-i kerime gayet açıktır: “…Kim, bir insanın hayatını kurtarırsa bütün insanların hayatını kurtarmış gibi olur…”[3]"
-  },
-  {
-   "tur": "hitap",
-   "metin": "Aziz Kardeşlerim!"
-  },
-  {
-   "tur": "paragraf",
-   "metin": "Ömrümüz kısa, dünya geçici, ahiret hayatı ise haktır, gerçektir ve ebedidir. Gün gelir; nefesimiz biter, adımlarımız durur, dünyaya ait olan ne varsa geride bırakır gideriz. Evet, Değerli Kardeşlerim! Asıl mesele, dünyada ne kadar kaldığımız değil, Allah’a olan kulluğumuz ve O’nun rızası için yaptığımız iyiliklerimizdir. Asıl mesele, Sevgili Peygamberimiz (s.a.s)’in, “…Allah katında amellerin en sevimlisi, az da olsa devamlı olanıdır”[4] tavsiyesine uyarak ömrümüzü ibadete çevirebilmektir."
-  },
-  {
-   "tur": "paragraf",
-   "metin": "Hutbemizi, Nahl sûresi doksan yedinci ayet-i kerimenin mealiyle bitiriyoruz: “Erkek ya da kadın, kim mümin olarak salih amel işlerse, elbette ona hoş bir hayat yaşatacağız ve onların mükâfatlarını yaptıklarına karşılık olarak en güzeliyle vereceğiz.”[5]"
+   "metin": "Hutbemizi, bir ayet-i kerimenin mealiyle bitiriyoruz: “Kurtuluşa eren müminler, faydasız işlerden ve boş sözlerden yüz çevirirler.”[3]"
   }
  ],
  "dipnotlar": [
-  "Ebû Dâvûd, Tatavvu’, 12.",
-  "Ebû Dâvûd, Edeb, 60.",
-  "Mâide, 5/32.",
-  "Ebû Dâvûd, Tatavvu’, 27.",
-  "Nahl, 16/97."
+  "Ebû Dâvûd, Edeb, 80.",
+  "İsrâ, 17/36.",
+  "Mü’minûn, 23/3."
  ],
  "kaynak": "Din Hizmetleri Genel Müdürlüğü",
- "adres": "https://dinhizmetleri.diyanet.gov.tr/Documents/%C4%B0badet.pdf"
+ "adres": "https://dinhizmetleri.diyanet.gov.tr/Documents/Dijital%20Mecrada%20Ahlak.pdf"
 }
