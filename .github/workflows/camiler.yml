@@ -72,8 +72,9 @@ jobs:
           path: ${{ runner.temp }}/dunya.tar.gz
           retention-days: 7
       - name: R2'ye yükle
-        # Kareler tarihli adla, kalıcı önbellekle; sonra dizin kısa önbellekle (yeni tarihi göstersin).
-        # En son iki kuşak kalır (eski dizini önbellekte tutan telefonlar bir ay daha bulsun), daha eskiler silinir.
+        # Kareler tarihli adla, kalıcı önbellekle; sonra dizin kısa önbellekle (yeni tarihi göstersin); sonra eski kuşak
+        # silinir (eski dizini tutan telefon kare bulamayınca dizini yeniden alır). Ücretsiz kota 10 GB: yeni kareler
+        # eklenince kova SINIR'ı aşacaksa hiçbir şey yüklenmez, iş düşer (ücret çıkmasın).
         env:
           RCLONE_CONFIG_R2_TYPE: s3
           RCLONE_CONFIG_R2_PROVIDER: Cloudflare
@@ -88,13 +89,19 @@ jobs:
           if [ -z "$KOVA" ]; then echo "::warning::R2 sırları yok, R2'ye yükleme atlandı"; exit 0; fi
           curl -fsSL https://rclone.org/install.sh | sudo bash > /dev/null
           d="$RUNNER_TEMP/dunya"
+          SINIR=9800000000
+          kova=$(rclone size "r2:$KOVA" --json | python3 -c 'import json,sys; print(json.load(sys.stdin)["bytes"])')
+          eski=$(rclone size "r2:$KOVA/camiler" --json | python3 -c 'import json,sys; print(json.load(sys.stdin)["bytes"])')
+          yeni=$(du -sb "$d" | cut -f1)
+          echo "kova $kova, eski camiler $eski, yeni $yeni bayt"
+          if [ $((kova - eski + yeni)) -gt $SINIR ]; then echo "::error::R2 kotası aşılacak, yüklenmedi"; exit 1; fi
           rclone copy "$d" "r2:$KOVA/camiler" --exclude dizin.json --transfers 32 --checkers 32 \
             --header-upload "Cache-Control: public, max-age=31536000, immutable"
           rclone copyto "$d/dizin.json" "r2:$KOVA/camiler/dizin.json" \
             --header-upload "Cache-Control: public, max-age=3600"
           curl -fsS https://video.seamus.tr/camiler/dizin.json | python3 -c 'import json,sys; d=json.load(sys.stdin); print(d["tarih"], d["toplam"], len(d["kareler"]))'
           tarihler=$(rclone lsf "r2:$KOVA/camiler" --files-only | grep -oE '^[0-9]{4}-[0-9]{2}-[0-9]{2}_' | sort -u)
-          eskiler=$(echo "$tarihler" | head -n -2)
+          eskiler=$(echo "$tarihler" | head -n -1)
           for t in $eskiler; do rclone delete "r2:$KOVA/camiler" --include "${t}*.json"; done
       - name: Kaydet
         run: |
