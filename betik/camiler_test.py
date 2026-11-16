@@ -45,9 +45,13 @@ class Ayikla(unittest.TestCase):
         # Mezarlık burada elenmez (uygulama eler); yalnız ilgisizler ve kopya
         self.assertEqual([o[0] for o in k['37.0_35.0']], ['n5'])
 
-    def test_sinir_disi(self):
-        k = camiler.ayikla([satir('n6', {'type': 'Point', 'coordinates': [44.5, 33.3]}, religion='muslim')])
-        self.assertEqual(k, {})
+    def test_dunya_geneli_depo_bolgelerle_sinirli(self):
+        k = camiler.ayikla([
+            satir('n6', {'type': 'Point', 'coordinates': [44.5, 33.3]}, religion='muslim'),
+            satir('n1', NOKTA, religion='muslim'),
+        ])
+        self.assertEqual(sorted(k), ['33.0_44.5', '37.0_35.0'])
+        self.assertEqual(list(camiler.bolgelere_sinirla(k)), ['37.0_35.0'])
 
     def test_endonezya(self):
         k = camiler.ayikla([satir('n8', {'type': 'Point', 'coordinates': [106.8272, -6.1702]}, religion='muslim', name='Masjid Istiqlal')])
@@ -75,7 +79,52 @@ class Ayikla(unittest.TestCase):
 
 
 class Yaz(unittest.TestCase):
+    def setUp(self):
+        self.eski = (camiler.BOLGELER, camiler.DUNYA_EN_AZ)
+        b = camiler.BOLGELER
+        camiler.BOLGELER = {'tr': (b['tr'][0], 1), 'id': (b['id'][0], 1)}
+        camiler.DUNYA_EN_AZ = 3
+
+    def tearDown(self):
+        camiler.BOLGELER, camiler.DUNYA_EN_AZ = self.eski
+
+    KARELER = {
+        '37.0_35.0': [['n1', 37.1, 35.2, {'building': 'mosque'}]],
+        '-6.5_106.5': [['n2', -6.2, 106.8, {}]],
+        '33.0_44.5': [['n3', 33.3, 44.5, {}]],
+    }
+
+    def test_dunya_tarihli_kareler_ve_dizin(self):
+        with tempfile.TemporaryDirectory() as d:
+            dizin = camiler.yaz_dunya(self.KARELER, d, '2026-11-16')
+            self.assertEqual(sorted(os.listdir(d)), [
+                '2026-11-16_-6.5_106.5.json', '2026-11-16_33.0_44.5.json', '2026-11-16_37.0_35.0.json', 'dizin.json'])
+            self.assertEqual(dizin['v'], 2)
+            self.assertEqual(dizin['kapsam'], 'dunya')
+            self.assertEqual(dizin['kareler'], ['-6.5_106.5', '33.0_44.5', '37.0_35.0'])
+            with open(os.path.join(d, '2026-11-16_33.0_44.5.json'), encoding='utf-8') as g:
+                self.assertEqual(json.load(g), {'v': 2, 'o': [['n3', 33.3, 44.5, {}]]})
+
+    def test_dunya_az_kayitta_durur(self):
+        camiler.DUNYA_EN_AZ = 4
+        with tempfile.TemporaryDirectory() as d, self.assertRaises(camiler.CamiHatasi):
+            camiler.yaz_dunya(self.KARELER, d, '2026-11-16')
+
+    def test_dunya_klasoru_bos_olmali(self):
+        with tempfile.TemporaryDirectory() as d:
+            open(os.path.join(d, 'x.json'), 'w').close()
+            with self.assertRaises(camiler.CamiHatasi):
+                camiler.yaz_dunya(self.KARELER, d)
+
+    def test_depo_eski_bicim_yalniz_bolgeler(self):
+        with tempfile.TemporaryDirectory() as d:
+            dizin = camiler.yaz(self.KARELER, d, '2026-11-16')
+            self.assertEqual(dizin['v'], 1)
+            self.assertNotIn('kapsam', dizin)
+            self.assertEqual(dizin['kareler'], ['-6.5_106.5', '37.0_35.0'])
+
     def test_az_kayitta_durur_eskiye_dokunmaz(self):
+        camiler.BOLGELER = self.eski[0]
         with tempfile.TemporaryDirectory() as d:
             open(os.path.join(d, 'eski.json'), 'w').close()
             with self.assertRaises(camiler.CamiHatasi):

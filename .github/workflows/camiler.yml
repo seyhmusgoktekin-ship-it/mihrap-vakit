@@ -8,13 +8,44 @@ on:
 permissions:
   contents: write
 
-# Vakit, kur ve hutbe işleriyle aynı grup: aynı anda push etmesinler.
-concurrency: cek
-
 jobs:
-  camiler:
+  # Kıta başına: Geofabrik çıkarımını indir → cami/mescit kayıtlarını süz → GeoJSON. Bütün dünya, kopyaları betik eler.
+  # Avrupa ~32 GB: /mnt'teki geçici diske indirilir (kökte yer yetmez).
+  kita:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    strategy:
+      fail-fast: true
+      max-parallel: 4
+      matrix:
+        kita: [africa, asia, australia-oceania, central-america, europe, north-america, russia, south-america]
+    steps:
+      - name: osmium
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq osmium-tool
+      - name: İndir ve süz
+        run: |
+          set -euo pipefail
+          sudo mkdir -p /mnt/osm && sudo chown "$USER" /mnt/osm && cd /mnt/osm
+          df -h /mnt
+          curl -fsSL --retry 5 --retry-delay 30 -o kita.osm.pbf "https://download.geofabrik.de/${{ matrix.kita }}-latest.osm.pbf"
+          ls -lh kita.osm.pbf
+          osmium tags-filter kita.osm.pbf nwr/religion=muslim nwr/building=mosque -o cami.osm.pbf
+          rm kita.osm.pbf
+          osmium export cami.osm.pbf -f geojsonseq --add-unique-id=type_id -o "${{ matrix.kita }}.geojsonseq"
+          gzip -1 "${{ matrix.kita }}.geojsonseq"
+          ls -lh "${{ matrix.kita }}.geojsonseq.gz"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cami-${{ matrix.kita }}
+          path: /mnt/osm/${{ matrix.kita }}.geojsonseq.gz
+          retention-days: 3
+
+  yaz:
+    needs: kita
     runs-on: ubuntu-latest
     timeout-minutes: 60
+    # Vakit, kur ve hutbe işleriyle aynı grup: aynı anda push etmesinler.
+    concurrency: cek
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -22,25 +53,49 @@ jobs:
           python-version: '3.12'
       - name: Doğrula
         run: python3 -I betik/camiler_test.py
-      - name: osmium
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq osmium-tool
-      - name: Çıkarımları indir ve ayıkla
-        # Bölge başına: indir → cami/mescit kayıtlarını süz → GeoJSON'a çevir → büyük dosyayı sil (disk dolmasın).
-        # Yeni bölge: buraya bir satır + betik/camiler.py → BOLGELER.
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: cami-*
+          path: ${{ runner.temp }}/kita
+          merge-multiple: true
+      - name: Karelere böl
+        # Dünya (v2) → R2; depo (v1, yalnız Türkiye ve Endonezya) → GitHub Pages, eski uygulama sürümleri için.
         run: |
           set -euo pipefail
-          : > "$RUNNER_TEMP/cami.geojsonseq"
-          for bolge in europe/turkey asia/indonesia; do
-            ad=$(basename "$bolge")
-            curl -fsSL --retry 3 -o "$RUNNER_TEMP/$ad.osm.pbf" "https://download.geofabrik.de/$bolge-latest.osm.pbf"
-            osmium tags-filter "$RUNNER_TEMP/$ad.osm.pbf" nwr/religion=muslim nwr/building=mosque -o "$RUNNER_TEMP/$ad-cami.osm.pbf"
-            rm "$RUNNER_TEMP/$ad.osm.pbf"
-            osmium export "$RUNNER_TEMP/$ad-cami.osm.pbf" -f geojsonseq --add-unique-id=type_id -o "$RUNNER_TEMP/$ad.geojsonseq"
-            cat "$RUNNER_TEMP/$ad.geojsonseq" >> "$RUNNER_TEMP/cami.geojsonseq"
-            rm "$RUNNER_TEMP/$ad-cami.osm.pbf" "$RUNNER_TEMP/$ad.geojsonseq"
-          done
-          python3 -I betik/camiler.py "$RUNNER_TEMP/cami.geojsonseq" camiler
-          du -sh camiler
+          zcat "$RUNNER_TEMP"/kita/*.geojsonseq.gz > "$RUNNER_TEMP/cami.geojsonseq"
+          python3 -I betik/camiler.py "$RUNNER_TEMP/cami.geojsonseq" camiler "$RUNNER_TEMP/dunya"
+          du -sh camiler "$RUNNER_TEMP/dunya"
+          tar -C "$RUNNER_TEMP" -czf "$RUNNER_TEMP/dunya.tar.gz" dunya
+      - uses: actions/upload-artifact@v4
+        with:
+          name: camiler-dunya
+          path: ${{ runner.temp }}/dunya.tar.gz
+          retention-days: 7
+      - name: R2'ye yükle
+        # Kareler tarihli adla, kalıcı önbellekle; sonra dizin kısa önbellekle (yeni tarihi göstersin).
+        # En son iki kuşak kalır (eski dizini önbellekte tutan telefonlar bir ay daha bulsun), daha eskiler silinir.
+        env:
+          RCLONE_CONFIG_R2_TYPE: s3
+          RCLONE_CONFIG_R2_PROVIDER: Cloudflare
+          RCLONE_CONFIG_R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          RCLONE_CONFIG_R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          RCLONE_CONFIG_R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
+          RCLONE_CONFIG_R2_NO_CHECK_BUCKET: 'true'
+          KOVA: ${{ secrets.R2_BUCKET }}
+        run: |
+          set -euo pipefail
+          # Sırlar yoksa (R2_*) yükleme atlanır; dünya çıktısı yukarıdaki "camiler-dunya" eserinde kalır
+          if [ -z "$KOVA" ]; then echo "::warning::R2 sırları yok, R2'ye yükleme atlandı"; exit 0; fi
+          curl -fsSL https://rclone.org/install.sh | sudo bash > /dev/null
+          d="$RUNNER_TEMP/dunya"
+          rclone copy "$d" "r2:$KOVA/camiler" --exclude dizin.json --transfers 32 --checkers 32 \
+            --header-upload "Cache-Control: public, max-age=31536000, immutable"
+          rclone copyto "$d/dizin.json" "r2:$KOVA/camiler/dizin.json" \
+            --header-upload "Cache-Control: public, max-age=3600"
+          curl -fsS https://video.seamus.tr/camiler/dizin.json | python3 -c 'import json,sys; d=json.load(sys.stdin); print(d["tarih"], d["toplam"], len(d["kareler"]))'
+          tarihler=$(rclone lsf "r2:$KOVA/camiler" --files-only | grep -oE '^[0-9]{4}-[0-9]{2}-[0-9]{2}_' | sort -u)
+          eskiler=$(echo "$tarihler" | head -n -2)
+          for t in $eskiler; do rclone delete "r2:$KOVA/camiler" --include "${t}*.json"; done
       - name: Kaydet
         run: |
           git config user.name "github-actions[bot]"
