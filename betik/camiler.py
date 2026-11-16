@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
-"""Türkiye'deki camiler ve mescitler: OpenStreetMap (Geofabrik Türkiye çıkarımı) → 0,5°'lik kare dosyaları.
+"""Camiler ve mescitler: OpenStreetMap (Geofabrik Türkiye ve Endonezya çıkarımları) → 0,5°'lik kare dosyaları.
 
 Uygulama yakın camileri anlık Overpass sorgusuyla arıyordu; herkese açık Overpass sunucuları sık sık yanıtsız
-kaldığı için liste ya hiç gelmiyor ya da çok geç geliyordu. Burada ayda bir bütün Türkiye çekilip konuma göre
+kaldığı için liste ya hiç gelmiyor ya da çok geç geliyordu (Endonezya'da 2026-11: uzun bekleme, sonra boş liste).
+Burada ayda bir bölgelerin tamamı çekilip konuma göre
 karelere bölünür; cihaz yalnız çevresindeki kareleri indirir (konumu hiçbir yere gönderilmez), ayıklamayı
 (cami mi mescit mi, dernek mi mezarlık mı) uygulamanın kendi kodu yapar.
 
-Girdi: `osmium export -f geojsonseq --add-unique-id=type_id` çıktısı (betik/camiler.sh hazırlar).
+Girdi: `osmium export -f geojsonseq --add-unique-id=type_id` çıktısı; bölgelerinki art arda eklenmiş tek dosya
+(`.github/workflows/camiler.yml` hazırlar).
 Çıktı:
   camiler/<enlem>_<boylam>.json  {"v":1,"o":[[kimlik, enlem, boylam, {etiketler}], ...]}
       kare adı güneybatı köşesidir (ör. 37.0_35.0 = 37.0-37.5 K, 35.0-35.5 D)
@@ -29,10 +31,13 @@ ETIKETLER = (
     'religion', 'amenity', 'building', 'name', 'name:tr', 'place_of_worship',
     'landuse', 'shop', 'historic', 'craft', 'healthcare', 'tourism',
 )
-# Türkiye'nin kabaca sınırları; Geofabrik çıkarımının kenarından taşan komşu ülke kayıtlarını da kapsar
-SINIR = (35.5, 42.5, 25.5, 45.0)  # güney, kuzey, batı, doğu
-# Bunun altına düşerse iş durur, eski dosyalar kalır (çıkarım bozuk ya da yarım inmiş olabilir)
-EN_AZ = 40000  # 2026-10-31 çekim: 57.828 (osmium kapalı yolu hem yol hem alan olarak verir; tekrar ayıklanır)
+# Bölgelerin kabaca sınırları (güney, kuzey, batı, doğu) ve en az kayıt sayısı. Sınır, Geofabrik çıkarımının kenarından
+# taşan komşu ülke kayıtlarını da kapsar. Bir bölge bu sayının altına düşerse iş durur, eski dosyalar kalır
+# (çıkarım bozuk ya da yarım inmiş olabilir). Yeni bölge: buraya bir satır + iş akışında bir çıkarım.
+BOLGELER = {
+    'tr': ((35.5, 42.5, 25.5, 45.0), 40000),  # 2026-10-31 çekim: 57.828
+    'id': ((-11.5, 6.5, 94.5, 141.5), 20000),
+}
 
 
 class CamiHatasi(Exception):
@@ -73,6 +78,13 @@ def merkez(geometri):
     return enlem, boylam
 
 
+def bolge(enlem, boylam):
+    for ad, ((g, k, b, d), _) in BOLGELER.items():
+        if g <= enlem <= k and b <= boylam <= d:
+            return ad
+    return None
+
+
 def kare_adi(enlem, boylam):
     return f'{math.floor(enlem / KARE) * KARE:.1f}_{math.floor(boylam / KARE) * KARE:.1f}'
 
@@ -105,7 +117,7 @@ def ayikla(satirlar):
         if not m:
             continue
         enlem, boylam = m
-        if not (SINIR[0] <= enlem <= SINIR[1] and SINIR[2] <= boylam <= SINIR[3]):
+        if not bolge(enlem, boylam):
             continue
         gorulen.add(kimlik)
         kucuk = {a: str(etiket[a]) for a in ETIKETLER if a in etiket and a != 'religion'}
@@ -117,8 +129,13 @@ def ayikla(satirlar):
 
 def yaz(kareler, klasor, tarih=None):
     toplam = sum(len(v) for v in kareler.values())
-    if toplam < EN_AZ:
-        raise CamiHatasi(f'yalnız {toplam} kayıt (en az {EN_AZ} bekleniyordu)')
+    sayi = {ad: 0 for ad in BOLGELER}
+    for liste in kareler.values():
+        for o in liste:
+            sayi[bolge(o[1], o[2])] += 1
+    for ad, (_, en_az) in BOLGELER.items():
+        if sayi[ad] < en_az:
+            raise CamiHatasi(f'{ad}: yalnız {sayi[ad]} kayıt (en az {en_az} bekleniyordu)')
     os.makedirs(klasor, exist_ok=True)
     yeni = set()
     for ad, liste in kareler.items():
@@ -135,6 +152,7 @@ def yaz(kareler, klasor, tarih=None):
         'kare': KARE,
         'kareler': sorted(kareler),
         'toplam': toplam,
+        'bolgeler': sayi,
         'kaynak': '© OpenStreetMap katkıcıları, ODbL',
     }
     with open(os.path.join(klasor, 'dizin.json'), 'w', encoding='utf-8') as d:
@@ -149,7 +167,7 @@ def main():
     with open(sys.argv[1], encoding='utf-8') as g:
         kareler = ayikla(g)
     dizin = yaz(kareler, klasor)
-    print(f"{dizin['toplam']} kayıt, {len(dizin['kareler'])} kare → {klasor}/")
+    print(f"{dizin['toplam']} kayıt {dizin['bolgeler']}, {len(dizin['kareler'])} kare → {klasor}/")
 
 
 if __name__ == '__main__':

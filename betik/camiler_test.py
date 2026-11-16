@@ -49,6 +49,12 @@ class Ayikla(unittest.TestCase):
         k = camiler.ayikla([satir('n6', {'type': 'Point', 'coordinates': [44.5, 33.3]}, religion='muslim')])
         self.assertEqual(k, {})
 
+    def test_endonezya(self):
+        k = camiler.ayikla([satir('n8', {'type': 'Point', 'coordinates': [106.8272, -6.1702]}, religion='muslim', name='Masjid Istiqlal')])
+        self.assertEqual(list(k), ['-6.5_106.5'])
+        self.assertEqual(camiler.bolge(-6.17, 106.83), 'id')
+        self.assertEqual(camiler.bolge(41.0, 29.0), 'tr')
+
     def test_alan_kimligi_yol_ya_da_iliski(self):
         self.assertEqual(camiler.osm_kimligi('a2042'), 'w1021')
         self.assertEqual(camiler.osm_kimligi('a2043'), 'r1021')
@@ -76,20 +82,34 @@ class Yaz(unittest.TestCase):
                 camiler.yaz({'37.0_35.0': [['n1', 37, 35, {}]]}, d)
             self.assertTrue(os.path.exists(os.path.join(d, 'eski.json')))
 
+    def test_bolgelerden_biri_azsa_durur(self):
+        eski = camiler.BOLGELER
+        camiler.BOLGELER = {'tr': (eski['tr'][0], 1), 'id': (eski['id'][0], 1)}
+        try:
+            with tempfile.TemporaryDirectory() as d, self.assertRaises(camiler.CamiHatasi):
+                camiler.yaz({'37.0_35.0': [['n1', 37.1, 35.2, {}]]}, d)
+        finally:
+            camiler.BOLGELER = eski
+
     def test_dizin_ve_eski_kare_silinir(self):
-        eski = camiler.EN_AZ
-        camiler.EN_AZ = 1
+        eski = camiler.BOLGELER
+        camiler.BOLGELER = {'tr': (eski['tr'][0], 1), 'id': (eski['id'][0], 1)}
         try:
             with tempfile.TemporaryDirectory() as d:
                 open(os.path.join(d, '10.0_10.0.json'), 'w').close()
-                dizin = camiler.yaz({'37.0_35.0': [['n1', 37.1, 35.2, {'building': 'mosque'}]]}, d, '2026-11-01')
-                self.assertEqual(sorted(os.listdir(d)), ['37.0_35.0.json', 'dizin.json'])
-                self.assertEqual(dizin['kareler'], ['37.0_35.0'])
+                dizin = camiler.yaz(
+                    {'37.0_35.0': [['n1', 37.1, 35.2, {'building': 'mosque'}]], '-6.5_106.5': [['n2', -6.2, 106.8, {}]]},
+                    d,
+                    '2026-11-01',
+                )
+                self.assertEqual(sorted(os.listdir(d)), ['-6.5_106.5.json', '37.0_35.0.json', 'dizin.json'])
+                self.assertEqual(dizin['kareler'], ['-6.5_106.5', '37.0_35.0'])
+                self.assertEqual(dizin['bolgeler'], {'tr': 1, 'id': 1})
                 self.assertEqual(dizin['tarih'], '2026-11-01')
                 with open(os.path.join(d, '37.0_35.0.json'), encoding='utf-8') as g:
                     self.assertEqual(json.load(g), {'v': 1, 'o': [['n1', 37.1, 35.2, {'building': 'mosque'}]]})
         finally:
-            camiler.EN_AZ = eski
+            camiler.BOLGELER = eski
 
 
 if __name__ == '__main__':
